@@ -17,7 +17,7 @@ Static analysis can detect access to model properties or array keys that do not 
 Strongly typed form request data makes downstream code easier for PHPStan, humans, and agents to understand. ([source](../videos/2025-03-25-phpstan-loves-this-trick-strongly-typed-requests-E9ixq-dlcjQ.md))
 
 ### Treat PHPStan like TypeScript for PHP
-Use static analysis as a daily feedback loop, not as an occasional cleanup task. ([source](../videos/2025-01-14-phpstan-is-typescript-for-php-sOQC_-pkMYk.md))
+Use static analysis as a daily feedback loop, not as an occasional cleanup task. ([source](../articles/stitcher-io/2022-07-16-uncertainty-doubt-and-static-analysis.md))
 
 ## Examples
 ### Typed form request shape
@@ -45,7 +45,6 @@ vendor/bin/phpstan analyse --memory-limit=1G
 
 ## Source Videos
 - [AI Vibe Coding Is Broken. Strict Engineering Fixes It.](../videos/2026-05-27-ai-vibe-coding-is-broken-strict-engineering-fixes-it-96To5-uJbog.md)
-- [PHPStan is TypeScript for PHP!](../videos/2025-01-14-phpstan-is-typescript-for-php-sOQC_-pkMYk.md)
 - [Modern PHP Type Safety with PHPStan..](../videos/2025-10-28-modern-php-type-safety-with-phpstan-rSMi1vJ942o.md)
 
 ## Source Articles

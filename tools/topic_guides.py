@@ -230,8 +230,9 @@ TOPIC_GUIDES = [
     TopicGuide(
         slug="laravel-actions",
         title="Laravel Actions",
-        description="Move reusable application behavior into action classes so controllers, jobs, commands, and other actions can share it.",
+        description="Use action classes selectively when named application behavior needs reuse, coordination, transactions, or an invariant-focused test surface.",
         rules=[
+            "Before creating an action, ask what pressure justifies it: reuse, multiple entry points, multiple collaborators, a transaction boundary, or a business invariant.",
             "Keep HTTP concerns out of action classes.",
             "Validate at the boundary, then pass plain data or DTOs into the action. The reason is that validation is a boundary concern: HTTP requests, queued jobs, console commands, and tests all enter the application differently, while the action should receive trusted, already-shaped input.",
             "Wrap multi-step mutations in transactions when partial success would corrupt state.",
@@ -241,8 +242,8 @@ TOPIC_GUIDES = [
         ],
         tips=[
             {
-                "title": "Keep controllers thin",
-                "body": "Controllers should translate HTTP into application calls; actions should hold the behavior.",
+                "title": "Keep controllers thin, not empty by default",
+                "body": "Controllers should translate HTTP into application calls. That does not mean every line needs an action; create the action when the behavior has earned a reusable name.",
                 "source": "docs/videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md",
             },
             {
@@ -274,22 +275,22 @@ TOPIC_GUIDES = [
                 "code": "<?php\n\nfinal class StoreTagController\n{\n    public function __invoke(StoreTagRequest $request): RedirectResponse\n    {\n        $tag = Tag::query()->create($request->validated());\n\n        return redirect()->route('tags.show', $tag);\n    }\n}",
             },
             {
-                "title": "Action class boundary",
-                "body": "The action receives application data, not an HTTP request.",
+                "title": "Action boundary after pressure appears",
+                "body": "The action receives application data, not an HTTP request. Use this shape after the workflow earns a name or needs reuse.",
                 "language": "php",
-                "code": "<?php\n\ndeclare(strict_types=1);\n\nfinal readonly class CreateUser\n{\n    public function handle(array $data): User\n    {\n        return DB::transaction(fn () => User::query()->create($data));\n    }\n}",
+                "code": "<?php\n\ndeclare(strict_types=1);\n\nfinal readonly class RegisterSubscriber\n{\n    public function handle(SubscriberData $data): Subscriber\n    {\n        return DB::transaction(function () use ($data) {\n            $subscriber = Subscriber::query()->create($data->toArray());\n\n            SubscribeToDefaultList::dispatchSync($subscriber);\n\n            return $subscriber;\n        });\n    }\n}",
             },
             {
                 "title": "Controller calls an action",
-                "body": "The controller owns HTTP concerns; the action owns behavior.",
+                "body": "The controller owns HTTP concerns; the action owns the named workflow that has earned extraction.",
                 "language": "php",
-                "code": "<?php\n\nfinal class StoreUserController\n{\n    public function __invoke(StoreUserRequest $request, CreateUser $createUser): RedirectResponse\n    {\n        $user = $createUser->handle($request->validated());\n\n        return redirect()->route('users.show', $user);\n    }\n}",
+                "code": "<?php\n\nfinal class RegisterSubscriberController\n{\n    public function __invoke(RegisterSubscriberRequest $request, RegisterSubscriber $register): RedirectResponse\n    {\n        $subscriber = $register->handle($request->data());\n\n        return redirect()->route('subscribers.show', $subscriber);\n    }\n}",
             },
             {
                 "title": "Job reuses the same action",
                 "body": "Because validation stayed outside the action, a queued job can call it with data that came from another trusted source.",
                 "language": "php",
-                "code": "<?php\n\nfinal readonly class ImportUserJob\n{\n    public function __construct(private array $row) {}\n\n    public function handle(CreateUser $createUser): void\n    {\n        $createUser->handle([\n            'name' => $this->row['name'],\n            'email' => $this->row['email'],\n        ]);\n    }\n}",
+                "code": "<?php\n\nfinal readonly class ImportSubscriberJob\n{\n    public function __construct(private SubscriberData $data) {}\n\n    public function handle(RegisterSubscriber $register): void\n    {\n        $register->handle($this->data);\n    }\n}",
             },
             {
                 "title": "Action-worthy workflow",
@@ -302,14 +303,6 @@ TOPIC_GUIDES = [
             {
                 "title": "The Action Pattern Is Key to Clean Code",
                 "path": "docs/videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md",
-            },
-            {
-                "title": "Laravel Actions: The Secret Sauce",
-                "path": "docs/videos/2024-12-02-laravel-actions-the-secret-sauce-r1480BoFulQ.md",
-            },
-            {
-                "title": "Clean Laravel Controllers with Actions and Form Requests",
-                "path": "docs/videos/2025-01-29-clean-laravel-controllers-with-actions-and-form-requests-nLNdQ9q_RxA.md",
             },
         ],
         related=["avoid-overengineering", "clean-code", "database-integrity", "phpstan-type-safety"],
@@ -382,10 +375,6 @@ TOPIC_GUIDES = [
                 "title": "The Action Pattern Is Key to Clean Code",
                 "path": "docs/videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md",
             },
-            {
-                "title": "Clean Laravel Controllers with Actions and Form Requests",
-                "path": "docs/videos/2025-01-29-clean-laravel-controllers-with-actions-and-form-requests-nLNdQ9q_RxA.md",
-            },
         ],
         related=["laravel-actions", "domain-modeling", "event-sourcing", "dependencies-and-maintenance"],
         source_articles=[
@@ -431,7 +420,7 @@ TOPIC_GUIDES = [
             {
                 "title": "Treat PHPStan like TypeScript for PHP",
                 "body": "Use static analysis as a daily feedback loop, not as an occasional cleanup task.",
-                "source": "docs/videos/2025-01-14-phpstan-is-typescript-for-php-sOQC_-pkMYk.md",
+                "source": "docs/articles/stitcher-io/2022-07-16-uncertainty-doubt-and-static-analysis.md",
             },
         ],
         examples=[
@@ -452,10 +441,6 @@ TOPIC_GUIDES = [
             {
                 "title": "AI Vibe Coding Is Broken. Strict Engineering Fixes It.",
                 "path": "docs/videos/2026-05-27-ai-vibe-coding-is-broken-strict-engineering-fixes-it-96To5-uJbog.md",
-            },
-            {
-                "title": "PHPStan is TypeScript for PHP!",
-                "path": "docs/videos/2025-01-14-phpstan-is-typescript-for-php-sOQC_-pkMYk.md",
             },
             {
                 "title": "Modern PHP Type Safety with PHPStan..",
@@ -492,12 +477,12 @@ TOPIC_GUIDES = [
             {
                 "title": "Make the first test a smoke test",
                 "body": "A smoke test proves the critical path still works before you spend time on smaller cases.",
-                "source": "docs/videos/2025-01-06-why-smoke-tests-should-always-be-your-first-test-6iz1uPS-s3A.md",
+                "source": "docs/articles/stitcher-io/2024-03-22-testing-patterns.md",
             },
             {
                 "title": "Keep test shape readable",
                 "body": "Arrange-act-assert keeps setup, behavior, and expectations separate.",
-                "source": "docs/videos/2024-12-03-clean-tests-with-arrange-act-assert-bBZ44BeDVTg.md",
+                "source": "docs/articles/stitcher-io/2024-03-22-testing-patterns.md",
             },
             {
                 "title": "Use coverage as a guardrail",
@@ -508,9 +493,9 @@ TOPIC_GUIDES = [
         examples=[
             {
                 "title": "Arrange-act-assert test",
-                "body": "Make the test read as a tiny story.",
+                "body": "Make the test read as a tiny story. This example uses a named workflow because the behavior has already earned extraction.",
                 "language": "php",
-                "code": "<?php\n\nit('creates a user from valid input', function () {\n    $data = User::factory()->raw();\n\n    $user = app(CreateUser::class)->handle($data);\n\n    expect($user)->email->toBe($data['email']);\n});",
+                "code": "<?php\n\nit('registers a subscriber from valid input', function () {\n    $data = SubscriberData::fake();\n\n    $subscriber = app(RegisterSubscriber::class)->handle($data);\n\n    expect($subscriber)->email->toBe($data->email);\n});",
             },
             {
                 "title": "Parallel coverage gate",
@@ -523,14 +508,6 @@ TOPIC_GUIDES = [
             {
                 "title": "Your PHP Tests Are Not Enough in 2026",
                 "path": "docs/videos/2026-05-26-your-php-tests-are-not-enough-in-2026-WhXf_mM5k7c.md",
-            },
-            {
-                "title": "3 testing tips you need to know...",
-                "path": "docs/videos/2024-12-19-3-testing-tips-you-need-to-know-shgXQUkCixw.md",
-            },
-            {
-                "title": "Why Smoke Tests Should Always Be Your First Test",
-                "path": "docs/videos/2025-01-06-why-smoke-tests-should-always-be-your-first-test-6iz1uPS-s3A.md",
             },
         ],
         related=["ai-engineering", "phpstan-type-safety", "tooling"],
@@ -559,17 +536,14 @@ TOPIC_GUIDES = [
             {
                 "title": "Use composite unique constraints",
                 "body": "Let the database enforce uniqueness when an invariant depends on multiple columns.",
-                "source": "docs/videos/2025-01-21-keep-your-db-in-check-with-composite-unique-constraints-yT4euHDveVc.md",
             },
             {
                 "title": "Avoid partial writes",
                 "body": "Use transactions around workflows that update multiple records or call external services.",
-                "source": "docs/videos/2025-01-28-avoid-this-mistake-in-your-laravel-db-transactions-N0jlh912xcM.md",
             },
             {
                 "title": "Do production data changes with migrations",
                 "body": "Migrations make production data changes reviewable, ordered, and repeatable.",
-                "source": "docs/videos/2025-02-28-using-laravel-seeders-in-production-stop-use-migrations-instead-HNgDhZYg3VI.md",
             },
         ],
         examples=[
@@ -586,20 +560,7 @@ TOPIC_GUIDES = [
                 "code": "<?php\n\nDB::transaction(function () use ($data) {\n    $order = Order::query()->create($data);\n    ReserveInventory::dispatchSync($order);\n});",
             },
         ],
-        source_videos=[
-            {
-                "title": "AVOID This Mistake in Your Laravel DB Transactions",
-                "path": "docs/videos/2025-01-28-avoid-this-mistake-in-your-laravel-db-transactions-N0jlh912xcM.md",
-            },
-            {
-                "title": "Keep Your DB in Check with Composite Unique Constraints!",
-                "path": "docs/videos/2025-01-21-keep-your-db-in-check-with-composite-unique-constraints-yT4euHDveVc.md",
-            },
-            {
-                "title": "Using Laravel Seeders in Production? STOP! Use Migrations Instead!",
-                "path": "docs/videos/2025-02-28-using-laravel-seeders-in-production-stop-use-migrations-instead-HNgDhZYg3VI.md",
-            },
-        ],
+        source_videos=[],
         related=["laravel-actions", "testing"],
         source_articles=[
             {
@@ -611,17 +572,17 @@ TOPIC_GUIDES = [
     TopicGuide(
         slug="clean-code",
         title="Clean Laravel Code",
-        description="Keep code readable by giving each layer one job: requests validate, controllers orchestrate, actions perform behavior, and tests describe outcomes.",
+        description="Keep code readable by giving each layer one job: requests validate, controllers orchestrate, named workflows hold earned extractions, and tests describe outcomes.",
         rules=[
             "Use strict equality and strict types when possible.",
             "Move validation to form requests.",
-            "Move reusable behavior to actions or dedicated classes.",
+            "Extract reusable behavior to actions or dedicated classes only when the behavior has earned a name.",
             "Use DTOs when they clarify boundaries; avoid them when arrays are simpler and well typed.",
         ],
         tips=[
             {
                 "title": "Do not let controllers become workflows",
-                "body": "Controllers should be thin enough that the application behavior has a reusable name elsewhere.",
+                "body": "Controllers should be thin enough to scan, but not empty by default. Extract behavior only when the application behavior has a reusable name elsewhere.",
                 "source": "docs/videos/2025-12-26-laravel-clean-code-invokable-controllers-form-requests-jobs-and-more-ZdzdOcdRowk.md",
             },
             {
@@ -632,7 +593,6 @@ TOPIC_GUIDES = [
             {
                 "title": "Prefer strict comparisons",
                 "body": "Strict equality avoids PHP coercion surprises and makes intent easier to inspect.",
-                "source": "docs/videos/2025-02-05-always-use-strict-equality-hcI06mTlbzM.md",
             },
         ],
         examples=[
@@ -651,10 +611,6 @@ TOPIC_GUIDES = [
             {
                 "title": "Laravel Clean Code: How to Write Perfect Form Requests!",
                 "path": "docs/videos/2025-03-20-laravel-clean-code-how-to-write-perfect-form-requests-FfDu-XR-8YQ.md",
-            },
-            {
-                "title": "Always use STRICT EQUALITY",
-                "path": "docs/videos/2025-02-05-always-use-strict-equality-hcI06mTlbzM.md",
             },
         ],
         related=["laravel-actions", "phpstan-type-safety", "testing"],
@@ -761,12 +717,7 @@ TOPIC_GUIDES = [
                 "code": "<?php\n\nfinal readonly class Percentage\n{\n    public function __construct(public int $value)\n    {\n        if ($value < 0 || $value > 100) {\n            throw new InvalidArgumentException('Percentage must be between 0 and 100.');\n        }\n    }\n}\n\nenum DiscountType: string\n{\n    case FIXED = 'fixed';\n    case PERCENTAGE = 'percentage';\n\n    public function requiresPercentage(): bool\n    {\n        return $this === self::PERCENTAGE;\n    }\n}\n",
             },
         ],
-        source_videos=[
-            {
-                "title": "Why use DTOs? Data Transfer Objects",
-                "path": "docs/videos/2025-04-02-why-use-dtos-data-transfer-objects-c6CP1C8liyU.md",
-            },
-        ],
+        source_videos=[],
         related=["request-data-boundaries", "phpstan-type-safety", "clean-code"],
         source_articles=[
             {
@@ -822,12 +773,7 @@ TOPIC_GUIDES = [
                 "code": "<?php\n\nfinal readonly class OrderWasPaid\n{\n    public function __construct(\n        public string $orderId,\n        public Money $amount,\n        public DateTimeImmutable $paidAt,\n    ) {}\n}\n\nfinal class OrdersToShipProjector\n{\n    public function onOrderWasPaid(OrderWasPaid $event): void\n    {\n        OrdersToShip::query()->create([\n            'order_id' => $event->orderId,\n            'paid_at' => $event->paidAt,\n        ]);\n    }\n}\n",
             },
         ],
-        source_videos=[
-            {
-                "title": "Event Sourcing in Laravel Step by Step",
-                "path": "docs/videos/2024-12-14-event-sourcing-in-laravel-step-by-step-hW9pWY4bx-A.md",
-            },
-        ],
+        source_videos=[],
         related=["database-integrity", "domain-modeling", "testing"],
         source_articles=[
             {
@@ -923,17 +869,16 @@ TOPIC_GUIDES = [
             {
                 "title": "Use Composer scripts as the stable interface",
                 "body": "A single script can hide Pint, Rector, PHPStan, Pest, or other tools behind one command.",
-                "source": "docs/videos/2024-10-19-why-were-using-composer-scripts-on-laravel-cloud-and-you-should-too-iVcLGN5Kcyc.md",
+                "source": "docs/videos/2026-05-26-your-php-tests-are-not-enough-in-2026-WhXf_mM5k7c.md",
             },
             {
                 "title": "Keep repo config explicit",
                 "body": "Files such as `.editorconfig`, `.gitattributes`, and `.gitignore` teach both humans and tools how the project behaves.",
-                "source": "docs/videos/2025-02-13-understanding-editorconfig-gitattributes-gitignore-etc-hmiNi7jDa-I.md",
             },
             {
                 "title": "Use Rector for repeatable upgrades",
                 "body": "Automated refactors reduce manual migration risk when modernizing PHP or Laravel code.",
-                "source": "docs/videos/2025-01-04-why-you-should-start-using-rector-php-today-upgrade-legacy-php-to-modern-15tsiv6AvnE.md",
+                "source": "docs/videos/2025-10-10-rector-php-for-laravel-is-actually-insane-pmWUDBoFKhs.md",
             },
         ],
         examples=[
@@ -945,14 +890,6 @@ TOPIC_GUIDES = [
             },
         ],
         source_videos=[
-            {
-                "title": "Why We are Using Composer Scripts on Laravel Cloud (And You Should Too!)",
-                "path": "docs/videos/2024-10-19-why-were-using-composer-scripts-on-laravel-cloud-and-you-should-too-iVcLGN5Kcyc.md",
-            },
-            {
-                "title": "understanding .editorconfig, .gitattributes, .gitignore, etc...",
-                "path": "docs/videos/2025-02-13-understanding-editorconfig-gitattributes-gitignore-etc-hmiNi7jDa-I.md",
-            },
             {
                 "title": "Rector PHP For Laravel is ACTUALLY INSANE",
                 "path": "docs/videos/2025-10-10-rector-php-for-laravel-is-actually-insane-pmWUDBoFKhs.md",

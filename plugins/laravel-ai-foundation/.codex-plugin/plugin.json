@@ -27,6 +27,6 @@
       "Reference",
       "Guidance"
     ],
-    "defaultPrompt": "Use Laravel AI Foundation to design this Laravel feature without overengineering it."
+    "defaultPrompt": "Use Laravel AI Foundation to decide whether this Laravel feature needs an action."
   }
 }

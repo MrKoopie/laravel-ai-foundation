@@ -1,9 +1,10 @@
 # Laravel Actions
 
 ## The Short Version
-Move reusable application behavior into action classes so controllers, jobs, commands, and other actions can share it.
+Use action classes selectively when named application behavior needs reuse, coordination, transactions, or an invariant-focused test surface.
 
 ## Practical Rules
+- Before creating an action, ask what pressure justifies it: reuse, multiple entry points, multiple collaborators, a transaction boundary, or a business invariant.
 - Keep HTTP concerns out of action classes.
 - Validate at the boundary, then pass plain data or DTOs into the action. The reason is that validation is a boundary concern: HTTP requests, queued jobs, console commands, and tests all enter the application differently, while the action should receive trusted, already-shaped input.
 - Wrap multi-step mutations in transactions when partial success would corrupt state.
@@ -12,8 +13,8 @@ Move reusable application behavior into action classes so controllers, jobs, com
 - Use actions for behavior that needs a name, has more than one entry point, coordinates multiple collaborators, or protects a business rule.
 
 ## Tips And Tricks
-### Keep controllers thin
-Controllers should translate HTTP into application calls; actions should hold the behavior. ([source](../videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md))
+### Keep controllers thin, not empty by default
+Controllers should translate HTTP into application calls. That does not mean every line needs an action; create the action when the behavior has earned a reusable name. ([source](../videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md))
 
 ### Pass validated data
 Call `validated()` on a form request and pass that result into the action instead of passing the request object. This keeps malformed user input, redirect behavior, authorization messages, and other HTTP-only concerns at the edge of the system. The action can then focus on the business operation and can be reused from non-HTTP entry points without pretending a request exists. ([source](../videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md))
@@ -45,36 +46,42 @@ final class StoreTagController
 }
 ```
 
-### Action class boundary
-The action receives application data, not an HTTP request.
+### Action boundary after pressure appears
+The action receives application data, not an HTTP request. Use this shape after the workflow earns a name or needs reuse.
 
 ```php
 <?php
 
 declare(strict_types=1);
 
-final readonly class CreateUser
+final readonly class RegisterSubscriber
 {
-    public function handle(array $data): User
+    public function handle(SubscriberData $data): Subscriber
     {
-        return DB::transaction(fn () => User::query()->create($data));
+        return DB::transaction(function () use ($data) {
+            $subscriber = Subscriber::query()->create($data->toArray());
+
+            SubscribeToDefaultList::dispatchSync($subscriber);
+
+            return $subscriber;
+        });
     }
 }
 ```
 
 ### Controller calls an action
-The controller owns HTTP concerns; the action owns behavior.
+The controller owns HTTP concerns; the action owns the named workflow that has earned extraction.
 
 ```php
 <?php
 
-final class StoreUserController
+final class RegisterSubscriberController
 {
-    public function __invoke(StoreUserRequest $request, CreateUser $createUser): RedirectResponse
+    public function __invoke(RegisterSubscriberRequest $request, RegisterSubscriber $register): RedirectResponse
     {
-        $user = $createUser->handle($request->validated());
+        $subscriber = $register->handle($request->data());
 
-        return redirect()->route('users.show', $user);
+        return redirect()->route('subscribers.show', $subscriber);
     }
 }
 ```
@@ -85,16 +92,13 @@ Because validation stayed outside the action, a queued job can call it with data
 ```php
 <?php
 
-final readonly class ImportUserJob
+final readonly class ImportSubscriberJob
 {
-    public function __construct(private array $row) {}
+    public function __construct(private SubscriberData $data) {}
 
-    public function handle(CreateUser $createUser): void
+    public function handle(RegisterSubscriber $register): void
     {
-        $createUser->handle([
-            'name' => $this->row['name'],
-            'email' => $this->row['email'],
-        ]);
+        $register->handle($this->data);
     }
 }
 ```
@@ -127,8 +131,6 @@ final readonly class InviteTeamMember
 
 ## Source Videos
 - [The Action Pattern Is Key to Clean Code](../videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md)
-- [Laravel Actions: The Secret Sauce](../videos/2024-12-02-laravel-actions-the-secret-sauce-r1480BoFulQ.md)
-- [Clean Laravel Controllers with Actions and Form Requests](../videos/2025-01-29-clean-laravel-controllers-with-actions-and-form-requests-nLNdQ9q_RxA.md)
 
 ## Source Articles
 - [Don't be clever](../articles/stitcher-io/2023-06-02-dont-be-clever.md)

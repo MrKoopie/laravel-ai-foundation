@@ -75,7 +75,6 @@ final readonly class RegisterSubscriber
 
 ## Source Videos
 - [The Action Pattern Is Key to Clean Code](../videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md)
-- [Clean Laravel Controllers with Actions and Form Requests](../videos/2025-01-29-clean-laravel-controllers-with-actions-and-form-requests-nLNdQ9q_RxA.md)
 
 ## Source Articles
 - [Don't be clever](../articles/stitcher-io/2023-06-02-dont-be-clever.md)

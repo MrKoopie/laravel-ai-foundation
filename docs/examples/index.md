@@ -249,36 +249,42 @@ final class StoreTagController
 }
 ```
 
-### Action class boundary
-The action receives application data, not an HTTP request.
+### Action boundary after pressure appears
+The action receives application data, not an HTTP request. Use this shape after the workflow earns a name or needs reuse.
 
 ```php
 <?php
 
 declare(strict_types=1);
 
-final readonly class CreateUser
+final readonly class RegisterSubscriber
 {
-    public function handle(array $data): User
+    public function handle(SubscriberData $data): Subscriber
     {
-        return DB::transaction(fn () => User::query()->create($data));
+        return DB::transaction(function () use ($data) {
+            $subscriber = Subscriber::query()->create($data->toArray());
+
+            SubscribeToDefaultList::dispatchSync($subscriber);
+
+            return $subscriber;
+        });
     }
 }
 ```
 
 ### Controller calls an action
-The controller owns HTTP concerns; the action owns behavior.
+The controller owns HTTP concerns; the action owns the named workflow that has earned extraction.
 
 ```php
 <?php
 
-final class StoreUserController
+final class RegisterSubscriberController
 {
-    public function __invoke(StoreUserRequest $request, CreateUser $createUser): RedirectResponse
+    public function __invoke(RegisterSubscriberRequest $request, RegisterSubscriber $register): RedirectResponse
     {
-        $user = $createUser->handle($request->validated());
+        $subscriber = $register->handle($request->data());
 
-        return redirect()->route('users.show', $user);
+        return redirect()->route('subscribers.show', $subscriber);
     }
 }
 ```
@@ -289,16 +295,13 @@ Because validation stayed outside the action, a queued job can call it with data
 ```php
 <?php
 
-final readonly class ImportUserJob
+final readonly class ImportSubscriberJob
 {
-    public function __construct(private array $row) {}
+    public function __construct(private SubscriberData $data) {}
 
-    public function handle(CreateUser $createUser): void
+    public function handle(RegisterSubscriber $register): void
     {
-        $createUser->handle([
-            'name' => $this->row['name'],
-            'email' => $this->row['email'],
-        ]);
+        $register->handle($this->data);
     }
 }
 ```
@@ -399,17 +402,17 @@ final class StorePostController
 ## Testing Strategy
 
 ### Arrange-act-assert test
-Make the test read as a tiny story.
+Make the test read as a tiny story. This example uses a named workflow because the behavior has already earned extraction.
 
 ```php
 <?php
 
-it('creates a user from valid input', function () {
-    $data = User::factory()->raw();
+it('registers a subscriber from valid input', function () {
+    $data = SubscriberData::fake();
 
-    $user = app(CreateUser::class)->handle($data);
+    $subscriber = app(RegisterSubscriber::class)->handle($data);
 
-    expect($user)->email->toBe($data['email']);
+    expect($subscriber)->email->toBe($data->email);
 });
 ```
 

@@ -7,6 +7,7 @@
   "excludeFiles": ["README.md", "AGENTS.md", "CLAUDE.md", "videos.md"],
   "rules": [
     "Prefer synthesized topic guides in docs/topics for direct answers.",
+    "For action, DDD, and overengineering questions, read docs/topics/avoid-overengineering.md and docs/topics/laravel-actions.md practical rules before using code examples.",
     "Use docs/examples for concrete snippets.",
     "Use docs/videos and docs/articles for source provenance.",
     "Treat video and article notes as summarized learning material, not official PHP or Laravel documentation.",

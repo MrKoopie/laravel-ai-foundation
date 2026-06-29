@@ -49,7 +49,7 @@ enum DiscountType: string
 ```
 
 ## Source Videos
-- [Why use DTOs? Data Transfer Objects](../videos/2025-04-02-why-use-dtos-data-transfer-objects-c6CP1C8liyU.md)
+- No source videos have been linked yet.
 
 ## Source Articles
 - [Tests and types](../articles/stitcher-io/2019-06-07-tests-and-types.md)

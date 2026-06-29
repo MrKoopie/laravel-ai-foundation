@@ -11,13 +11,13 @@ Protect application state with explicit constraints, transactions, and schema ch
 
 ## Tips And Tricks
 ### Use composite unique constraints
-Let the database enforce uniqueness when an invariant depends on multiple columns. ([source](../videos/2025-01-21-keep-your-db-in-check-with-composite-unique-constraints-yT4euHDveVc.md))
+Let the database enforce uniqueness when an invariant depends on multiple columns.
 
 ### Avoid partial writes
-Use transactions around workflows that update multiple records or call external services. ([source](../videos/2025-01-28-avoid-this-mistake-in-your-laravel-db-transactions-N0jlh912xcM.md))
+Use transactions around workflows that update multiple records or call external services.
 
 ### Do production data changes with migrations
-Migrations make production data changes reviewable, ordered, and repeatable. ([source](../videos/2025-02-28-using-laravel-seeders-in-production-stop-use-migrations-instead-HNgDhZYg3VI.md))
+Migrations make production data changes reviewable, ordered, and repeatable.
 
 ## Examples
 ### Composite unique constraint
@@ -44,9 +44,7 @@ DB::transaction(function () use ($data) {
 ```
 
 ## Source Videos
-- [AVOID This Mistake in Your Laravel DB Transactions](../videos/2025-01-28-avoid-this-mistake-in-your-laravel-db-transactions-N0jlh912xcM.md)
-- [Keep Your DB in Check with Composite Unique Constraints!](../videos/2025-01-21-keep-your-db-in-check-with-composite-unique-constraints-yT4euHDveVc.md)
-- [Using Laravel Seeders in Production? STOP! Use Migrations Instead!](../videos/2025-02-28-using-laravel-seeders-in-production-stop-use-migrations-instead-HNgDhZYg3VI.md)
+- No source videos have been linked yet.
 
 ## Source Articles
 - [Unsafe SQL functions in Laravel](../articles/stitcher-io/2019-04-10-unsafe-sql-functions-in-laravel.md)

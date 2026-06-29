@@ -48,7 +48,7 @@ final class OrdersToShipProjector
 ```
 
 ## Source Videos
-- [Event Sourcing in Laravel Step by Step](../videos/2024-12-14-event-sourcing-in-laravel-step-by-step-hW9pWY4bx-A.md)
+- No source videos have been linked yet.
 
 ## Source Articles
 - [Starting with event sourcing](../articles/stitcher-io/2021-04-09-what-event-sourcing-is-not-about.md)

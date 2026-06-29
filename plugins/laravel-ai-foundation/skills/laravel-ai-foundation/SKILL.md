@@ -5,12 +5,13 @@ description: Use when designing, reviewing, or explaining Laravel/PHP architectu
 
 # Laravel AI Foundation
 
-Use the Programming Foundation knowledge base as an architectural guardrail for Laravel and PHP work. It is guidance from curated videos and articles, not official framework documentation.
+Use the Programming Foundation knowledge base as an architectural guardrail for Laravel and PHP work. This skill is a lightweight pointer to the Context7-indexed docs; it is guidance from curated videos and articles, not official framework documentation.
 
 ## Context7 Workflow
 
-When Context7 is available, query `/mrkoopie/laravel-ai-foundation` with the user's full architectural question before proposing structure. Prefer these search angles:
+When Context7 is available, query `/mrkoopie/laravel-ai-foundation` with the user's full architectural question before proposing structure. Prefer decision-oriented search angles:
 
+- `should this Laravel feature use an action or stay in a controller`
 - `Laravel actions validation boundaries overengineering`
 - `avoid overengineering Laravel actions DDD`
 - `FormRequest DTO action boundaries`

@@ -24,9 +24,9 @@ This is a Markdown documentation repository, not a Laravel application, so Boost
 
 ## Agent Skill
 
-The repo includes a repo-local Codex plugin at [plugins/laravel-ai-foundation](plugins/laravel-ai-foundation). Its skill tells agents to query the live Context7 library `/mrkoopie/laravel-ai-foundation` before making Laravel architecture decisions, especially around actions, request boundaries, DDD, testing, and avoiding overengineering.
+The core value of this repo is the Context7-indexed documentation in `docs/`. The optional repo-local Codex plugin at [plugins/laravel-ai-foundation](plugins/laravel-ai-foundation) is a small activation wrapper for agents that support skills.
 
-The portable skill file is [plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md](plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md). Codex can use it through the plugin marketplace manifest in [.agents/plugins/marketplace.json](.agents/plugins/marketplace.json); Claude/Claude Code can reuse the same `SKILL.md` content as a normal skill.
+Its skill tells agents to query the live Context7 library `/mrkoopie/laravel-ai-foundation` before making Laravel architecture decisions, especially around actions, request boundaries, DDD, testing, and avoiding overengineering. The portable skill file is [plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md](plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md). Codex can use it through the plugin marketplace manifest in [.agents/plugins/marketplace.json](.agents/plugins/marketplace.json); Claude/Claude Code can reuse the same `SKILL.md` content as a normal skill.
 
 ## Source Data
 

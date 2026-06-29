@@ -154,6 +154,10 @@ class RepositoryMetadataTest(unittest.TestCase):
         self.assertIn("AGENTS.md", config["excludeFiles"])
         self.assertIn("CLAUDE.md", config["excludeFiles"])
         self.assertIn("videos.md", config["excludeFiles"])
+        self.assertIn(
+            "For action, DDD, and overengineering questions",
+            " ".join(config["rules"]),
+        )
 
     def test_codex_plugin_exposes_foundation_skill(self):
         plugin = json.loads(
@@ -163,6 +167,10 @@ class RepositoryMetadataTest(unittest.TestCase):
             ROOT
             / "plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md"
         ).read_text()
+        agent_yaml = (
+            ROOT
+            / "plugins/laravel-ai-foundation/skills/laravel-ai-foundation/agents/openai.yaml"
+        ).read_text()
         marketplace = json.loads((ROOT / ".agents/plugins/marketplace.json").read_text())
 
         self.assertEqual(plugin["name"], "laravel-ai-foundation")
@@ -171,6 +179,16 @@ class RepositoryMetadataTest(unittest.TestCase):
         self.assertIn("/mrkoopie/laravel-ai-foundation", skill)
         self.assertIn("actions are not the default", skill)
         self.assertIn("official Laravel documentation", skill)
+        self.assertIn(
+            "decide whether this Laravel feature needs an action",
+            plugin["interface"]["defaultPrompt"],
+        )
+        self.assertIn(
+            "decide whether this Laravel feature needs an action",
+            agent_yaml,
+        )
+        self.assertNotIn("design a Laravel action", plugin["interface"]["defaultPrompt"])
+        self.assertNotIn("design a Laravel action", agent_yaml)
         self.assertEqual(marketplace["name"], "programming-foundation")
         self.assertEqual(marketplace["plugins"][0]["name"], "laravel-ai-foundation")
 
