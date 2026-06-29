@@ -1,0 +1,4092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+    <id>https://stitcher.io/rss</id>
+    <link href="https://stitcher.io/rss" rel="self" />
+    <title>
+        <![CDATA[ stitcher.io ]]>
+    </title>
+    <updated>2026-06-29T18:00:13+00:00</updated>
+
+            <entry>
+            <title><![CDATA[ Talking to the new Ecosystem AI Security Engineer ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-ecosystem-security-team" />
+            <id>https://stitcher.io/blog/php-ecosystem-security-team</id>
+            <updated>2026-05-20T00:00:00.000Z</updated>
+            <published>2026-05-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-ecosystem-security-team ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP's biggest problem ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-biggest-problem" />
+            <id>https://stitcher.io/blog/php-biggest-problem</id>
+            <updated>2026-05-07T00:00:00.000Z</updated>
+            <published>2026-05-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-biggest-problem ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Dependency Hygiene ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dependency-hygiene" />
+            <id>https://stitcher.io/blog/dependency-hygiene</id>
+            <updated>2026-04-03T00:00:00.000Z</updated>
+            <published>2026-04-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dependency-hygiene ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ "A" for "Artificial" ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-for-artificial" />
+            <id>https://stitcher.io/blog/a-for-artificial</id>
+            <updated>2026-03-02T00:00:00.000Z</updated>
+            <published>2026-03-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-for-artificial ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Participate in the 100-million-row challenge for PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/100-million-row-challenge" />
+            <id>https://stitcher.io/blog/100-million-row-challenge</id>
+            <updated>2026-02-24T00:00:00.000Z</updated>
+            <published>2026-02-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/100-million-row-challenge ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Once again processing 11 million rows, now in seconds ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/11-million-rows-in-seconds" />
+            <id>https://stitcher.io/blog/11-million-rows-in-seconds</id>
+            <updated>2026-01-28T00:00:00.000Z</updated>
+            <published>2026-01-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/11-million-rows-in-seconds ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Partial function application in PHP 8.6 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-86-partial-function-application" />
+            <id>https://stitcher.io/blog/php-86-partial-function-application</id>
+            <updated>2026-01-23T00:00:00.000Z</updated>
+            <published>2026-01-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-86-partial-function-application ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ AI-induced skepticism ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/ai-induced-skepticism" />
+            <id>https://stitcher.io/blog/ai-induced-skepticism</id>
+            <updated>2026-01-21T00:00:00.000Z</updated>
+            <published>2026-01-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/ai-induced-skepticism ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Processing 11 million rows in minutes instead of hours ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/processing-11-million-rows" />
+            <id>https://stitcher.io/blog/processing-11-million-rows</id>
+            <updated>2026-01-19T00:00:00.000Z</updated>
+            <published>2026-01-19T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/processing-11-million-rows ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Not optional ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/not-optional" />
+            <id>https://stitcher.io/blog/not-optional</id>
+            <updated>2026-01-16T00:00:00.000Z</updated>
+            <published>2026-01-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/not-optional ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Open source strategies ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/open-source-strategies" />
+            <id>https://stitcher.io/blog/open-source-strategies</id>
+            <updated>2026-01-15T00:00:00.000Z</updated>
+            <published>2026-01-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/open-source-strategies ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2026 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-2026" />
+            <id>https://stitcher.io/blog/php-2026</id>
+            <updated>2026-01-12T00:00:00.000Z</updated>
+            <published>2026-01-12T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-2026 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I might have just flooded your RSS feed. Sorry! ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/flooded-rss" />
+            <id>https://stitcher.io/blog/flooded-rss</id>
+            <updated>2025-12-11T00:00:00.000Z</updated>
+            <published>2025-12-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/flooded-rss ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 8.5 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-85" />
+            <id>https://stitcher.io/blog/new-in-php-85</id>
+            <updated>2025-11-20T00:00:00.000Z</updated>
+            <published>2025-11-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-85 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Game changing editions ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/game-changing-editions" />
+            <id>https://stitcher.io/blog/game-changing-editions</id>
+            <updated>2025-11-13T00:00:00.000Z</updated>
+            <published>2025-11-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/game-changing-editions ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ My wishlist for PHP in 2026 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/my-wishlist-for-php-in-2026" />
+            <id>https://stitcher.io/blog/my-wishlist-for-php-in-2026</id>
+            <updated>2025-10-29T00:00:00.000Z</updated>
+            <published>2025-10-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/my-wishlist-for-php-in-2026 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Pitch in: sponsoring open source ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/sponsoring-open-source" />
+            <id>https://stitcher.io/blog/sponsoring-open-source</id>
+            <updated>2025-10-28T00:00:00.000Z</updated>
+            <published>2025-10-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/sponsoring-open-source ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Reducing code motion ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/reducing-code-motion" />
+            <id>https://stitcher.io/blog/reducing-code-motion</id>
+            <updated>2025-10-22T00:00:00.000Z</updated>
+            <published>2025-10-22T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/reducing-code-motion ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Vendor locked ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/vendor-locked" />
+            <id>https://stitcher.io/blog/vendor-locked</id>
+            <updated>2025-10-01T00:00:00.000Z</updated>
+            <published>2025-10-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/vendor-locked ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What is your motivator? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/whats-your-motivator" />
+            <id>https://stitcher.io/blog/whats-your-motivator</id>
+            <updated>2025-09-29T00:00:00.000Z</updated>
+            <published>2025-09-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/whats-your-motivator ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Impact charts ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/impact-charts" />
+            <id>https://stitcher.io/blog/impact-charts</id>
+            <updated>2025-09-11T00:00:00.000Z</updated>
+            <published>2025-09-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/impact-charts ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Things I wish I knew ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/things-i-wish-i-knew" />
+            <id>https://stitcher.io/blog/things-i-wish-i-knew</id>
+            <updated>2025-09-10T00:00:00.000Z</updated>
+            <published>2025-09-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/things-i-wish-i-knew ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Readonly or private(set) ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/readonly-or-private-set" />
+            <id>https://stitcher.io/blog/readonly-or-private-set</id>
+            <updated>2025-08-03T00:00:00.000Z</updated>
+            <published>2025-08-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/readonly-or-private-set ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A year with property hooks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-year-of-property-hooks" />
+            <id>https://stitcher.io/blog/a-year-of-property-hooks</id>
+            <updated>2025-07-18T00:00:00.000Z</updated>
+            <published>2025-07-18T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-year-of-property-hooks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The pipe operator in PHP 8.5 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/pipe-operator-in-php-85" />
+            <id>https://stitcher.io/blog/pipe-operator-in-php-85</id>
+            <updated>2025-07-03T00:00:00.000Z</updated>
+            <published>2025-07-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/pipe-operator-in-php-85 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: June, 2025 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-june-2025" />
+            <id>https://stitcher.io/blog/php-version-stats-june-2025</id>
+            <updated>2025-06-13T00:00:00.000Z</updated>
+            <published>2025-06-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-june-2025 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tempest's discovery explained ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tempest-discovery-explained" />
+            <id>https://stitcher.io/blog/tempest-discovery-explained</id>
+            <updated>2025-04-26T00:00:00.000Z</updated>
+            <published>2025-04-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tempest-discovery-explained ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHPverse 2025 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-verse-2025" />
+            <id>https://stitcher.io/blog/php-verse-2025</id>
+            <updated>2025-04-24T00:00:00.000Z</updated>
+            <published>2025-04-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-verse-2025 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Request objects in Tempest ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/request-objects-in-tempest" />
+            <id>https://stitcher.io/blog/request-objects-in-tempest</id>
+            <updated>2025-03-17T00:00:00.000Z</updated>
+            <published>2025-03-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/request-objects-in-tempest ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Static websites with Tempest ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/static-websites-with-tempest" />
+            <id>https://stitcher.io/blog/static-websites-with-tempest</id>
+            <updated>2025-03-14T00:00:00.000Z</updated>
+            <published>2025-03-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/static-websites-with-tempest ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Theoretical engineers ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/theoretical-engineers" />
+            <id>https://stitcher.io/blog/theoretical-engineers</id>
+            <updated>2025-01-18T00:00:00.000Z</updated>
+            <published>2025-01-18T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/theoretical-engineers ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: January, 2025 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-january-2025" />
+            <id>https://stitcher.io/blog/php-version-stats-january-2025</id>
+            <updated>2025-01-17T00:00:00.000Z</updated>
+            <published>2025-01-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-january-2025 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 8.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-84" />
+            <id>https://stitcher.io/blog/new-in-php-84</id>
+            <updated>2024-11-14T00:00:00.000Z</updated>
+            <published>2024-11-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-84 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Unfair Advantage ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/unfair-advantage" />
+            <id>https://stitcher.io/blog/unfair-advantage</id>
+            <updated>2024-11-09T00:00:00.000Z</updated>
+            <published>2024-11-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/unfair-advantage ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Things I learned writing a fiction novel ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/things-i-learned-writing-a-fiction-novel" />
+            <id>https://stitcher.io/blog/things-i-learned-writing-a-fiction-novel</id>
+            <updated>2024-10-30T00:00:00.000Z</updated>
+            <published>2024-10-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/things-i-learned-writing-a-fiction-novel ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tagging Tempest Livestream! ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tagging-tempest-livestream" />
+            <id>https://stitcher.io/blog/tagging-tempest-livestream</id>
+            <updated>2024-09-16T00:00:00.000Z</updated>
+            <published>2024-09-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tagging-tempest-livestream ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Building a framework ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/building-a-framework" />
+            <id>https://stitcher.io/blog/building-a-framework</id>
+            <updated>2024-09-13T00:00:00.000Z</updated>
+            <published>2024-09-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/building-a-framework ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A simple approach to static site generation ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-simple-approach-to-static-generation" />
+            <id>https://stitcher.io/blog/a-simple-approach-to-static-generation</id>
+            <updated>2024-08-30T00:00:00.000Z</updated>
+            <published>2024-08-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-simple-approach-to-static-generation ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Extend or implement ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/extends-vs-implements" />
+            <id>https://stitcher.io/blog/extends-vs-implements</id>
+            <updated>2024-08-21T00:00:00.000Z</updated>
+            <published>2024-08-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/extends-vs-implements ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.4 at least ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-84-at-least" />
+            <id>https://stitcher.io/blog/php-84-at-least</id>
+            <updated>2024-08-13T00:00:00.000Z</updated>
+            <published>2024-08-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-84-at-least ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I don't write code the way I used to ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/i-dont-code-the-way-i-used-to" />
+            <id>https://stitcher.io/blog/i-dont-code-the-way-i-used-to</id>
+            <updated>2024-08-07T00:00:00.000Z</updated>
+            <published>2024-08-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/i-dont-code-the-way-i-used-to ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Improved lazy loading ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/improved-lazy-loading" />
+            <id>https://stitcher.io/blog/improved-lazy-loading</id>
+            <updated>2024-07-29T00:00:00.000Z</updated>
+            <published>2024-07-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/improved-lazy-loading ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ It's all just text ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/its-all-just-text" />
+            <id>https://stitcher.io/blog/its-all-just-text</id>
+            <updated>2024-07-26T00:00:00.000Z</updated>
+            <published>2024-07-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/its-all-just-text ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ array_find in PHP 8.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/array-find-in-php-84" />
+            <id>https://stitcher.io/blog/array-find-in-php-84</id>
+            <updated>2024-07-18T00:00:00.000Z</updated>
+            <published>2024-07-18T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/array-find-in-php-84 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ HTML 5 support in PHP 8.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/html-5-in-php-84" />
+            <id>https://stitcher.io/blog/html-5-in-php-84</id>
+            <updated>2024-07-16T00:00:00.000Z</updated>
+            <published>2024-07-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/html-5-in-php-84 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ New without parentheses in PHP 8.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-with-parentheses-php-84" />
+            <id>https://stitcher.io/blog/new-with-parentheses-php-84</id>
+            <updated>2024-07-11T00:00:00.000Z</updated>
+            <published>2024-07-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-with-parentheses-php-84 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ You should ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/you-should" />
+            <id>https://stitcher.io/blog/you-should</id>
+            <updated>2024-07-09T00:00:00.000Z</updated>
+            <published>2024-07-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/you-should ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: July, 2024 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-july-2024" />
+            <id>https://stitcher.io/blog/php-version-stats-july-2024</id>
+            <updated>2024-07-08T00:00:00.000Z</updated>
+            <published>2024-07-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-july-2024 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A vocal minority ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-vocal-minority" />
+            <id>https://stitcher.io/blog/a-vocal-minority</id>
+            <updated>2024-07-03T00:00:00.000Z</updated>
+            <published>2024-07-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-vocal-minority ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Leaving Twitter ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/twitter-exit" />
+            <id>https://stitcher.io/blog/twitter-exit</id>
+            <updated>2024-06-26T00:00:00.000Z</updated>
+            <published>2024-06-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/twitter-exit ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tagged Singletons ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tagged-singletons" />
+            <id>https://stitcher.io/blog/tagged-singletons</id>
+            <updated>2024-05-24T00:00:00.000Z</updated>
+            <published>2024-05-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tagged-singletons ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2024 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2024" />
+            <id>https://stitcher.io/blog/php-in-2024</id>
+            <updated>2024-03-23T00:00:00.000Z</updated>
+            <published>2024-03-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2024 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Testing Patterns ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/testing-patterns" />
+            <id>https://stitcher.io/blog/testing-patterns</id>
+            <updated>2024-03-22T00:00:00.000Z</updated>
+            <published>2024-03-22T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/testing-patterns ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Building a custom language in tempest/highlight ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/building-a-custom-language-in-tempest-highlight" />
+            <id>https://stitcher.io/blog/building-a-custom-language-in-tempest-highlight</id>
+            <updated>2024-03-16T00:00:00.000Z</updated>
+            <published>2024-03-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/building-a-custom-language-in-tempest-highlight ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A syntax highlighter that doesn't suck ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-syntax-highlighter-that-doesnt-suck" />
+            <id>https://stitcher.io/blog/a-syntax-highlighter-that-doesnt-suck</id>
+            <updated>2024-03-15T00:00:00.000Z</updated>
+            <published>2024-03-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-syntax-highlighter-that-doesnt-suck ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The framework that gets out of your way ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/the-framework-that-gets-out-of-your-way" />
+            <id>https://stitcher.io/blog/the-framework-that-gets-out-of-your-way</id>
+            <updated>2024-02-19T00:00:00.000Z</updated>
+            <published>2024-02-19T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/the-framework-that-gets-out-of-your-way ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: January, 2024 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-january-2024" />
+            <id>https://stitcher.io/blog/php-version-stats-january-2024</id>
+            <updated>2024-01-29T00:00:00.000Z</updated>
+            <published>2024-01-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-january-2024 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Passion projects ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/passion-projects" />
+            <id>https://stitcher.io/blog/passion-projects</id>
+            <updated>2023-12-13T00:00:00.000Z</updated>
+            <published>2023-12-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/passion-projects ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I don't know ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/i-dont-know" />
+            <id>https://stitcher.io/blog/i-dont-know</id>
+            <updated>2023-12-12T00:00:00.000Z</updated>
+            <published>2023-12-12T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/i-dont-know ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 8.3 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-83" />
+            <id>https://stitcher.io/blog/new-in-php-83</id>
+            <updated>2023-11-23T00:00:00.000Z</updated>
+            <published>2023-11-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-83 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The RFC Vote project ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/rfc-vote" />
+            <id>https://stitcher.io/blog/rfc-vote</id>
+            <updated>2023-08-15T00:00:00.000Z</updated>
+            <published>2023-08-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/rfc-vote ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ "Is A" or "Acts As" ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/is-a-or-acts-as" />
+            <id>https://stitcher.io/blog/is-a-or-acts-as</id>
+            <updated>2023-07-06T00:00:00.000Z</updated>
+            <published>2023-07-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/is-a-or-acts-as ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: July, 2023 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-july-2023" />
+            <id>https://stitcher.io/blog/php-version-stats-july-2023</id>
+            <updated>2023-07-01T00:00:00.000Z</updated>
+            <published>2023-07-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-july-2023 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ #[Override] in PHP 8.3 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/override-in-php-83" />
+            <id>https://stitcher.io/blog/override-in-php-83</id>
+            <updated>2023-06-21T00:00:00.000Z</updated>
+            <published>2023-06-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/override-in-php-83 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Don't be clever ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dont-be-clever" />
+            <id>https://stitcher.io/blog/dont-be-clever</id>
+            <updated>2023-06-02T00:00:00.000Z</updated>
+            <published>2023-06-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dont-be-clever ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Building a procedurally generated game with PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/procedurally-generated-game-in-php" />
+            <id>https://stitcher.io/blog/procedurally-generated-game-in-php</id>
+            <updated>2023-05-30T00:00:00.000Z</updated>
+            <published>2023-05-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/procedurally-generated-game-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Things considered harmful ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/things-considered-harmful" />
+            <id>https://stitcher.io/blog/things-considered-harmful</id>
+            <updated>2023-05-02T00:00:00.000Z</updated>
+            <published>2023-05-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/things-considered-harmful ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Limited by committee ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/limited-by-committee" />
+            <id>https://stitcher.io/blog/limited-by-committee</id>
+            <updated>2023-03-22T00:00:00.000Z</updated>
+            <published>2023-03-22T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/limited-by-committee ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Cloning readonly properties in PHP 8.3 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/cloning-readonly-properties-in-php-83" />
+            <id>https://stitcher.io/blog/cloning-readonly-properties-in-php-83</id>
+            <updated>2023-03-20T00:00:00.000Z</updated>
+            <published>2023-03-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/cloning-readonly-properties-in-php-83 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Slashdash ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/slashdash" />
+            <id>https://stitcher.io/blog/slashdash</id>
+            <updated>2023-02-20T00:00:00.000Z</updated>
+            <published>2023-02-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/slashdash ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I'm a light schemer ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/light-colour-schemes" />
+            <id>https://stitcher.io/blog/light-colour-schemes</id>
+            <updated>2023-02-10T00:00:00.000Z</updated>
+            <published>2023-02-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/light-colour-schemes ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I'm a code folder ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/code-folding" />
+            <id>https://stitcher.io/blog/code-folding</id>
+            <updated>2023-02-06T00:00:00.000Z</updated>
+            <published>2023-02-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/code-folding ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Acronyms ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/acronyms" />
+            <id>https://stitcher.io/blog/acronyms</id>
+            <updated>2023-01-29T00:00:00.000Z</updated>
+            <published>2023-01-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/acronyms ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ My top-10 favourite functions in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/my-10-favourite-php-functions" />
+            <id>https://stitcher.io/blog/my-10-favourite-php-functions</id>
+            <updated>2023-01-27T00:00:00.000Z</updated>
+            <published>2023-01-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/my-10-favourite-php-functions ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Why curly brackets go on new lines ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/why-curly-brackets-go-on-new-lines" />
+            <id>https://stitcher.io/blog/why-curly-brackets-go-on-new-lines</id>
+            <updated>2023-01-24T00:00:00.000Z</updated>
+            <published>2023-01-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/why-curly-brackets-go-on-new-lines ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Sponsors ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/sponsors" />
+            <id>https://stitcher.io/blog/sponsors</id>
+            <updated>2023-01-21T00:00:00.000Z</updated>
+            <published>2023-01-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/sponsors ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tabs are better ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tabs-are-better" />
+            <id>https://stitcher.io/blog/tabs-are-better</id>
+            <updated>2023-01-20T00:00:00.000Z</updated>
+            <published>2023-01-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tabs-are-better ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2023 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2023" />
+            <id>https://stitcher.io/blog/php-in-2023</id>
+            <updated>2023-01-17T00:00:00.000Z</updated>
+            <published>2023-01-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2023 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: January, 2023 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-january-2023" />
+            <id>https://stitcher.io/blog/php-version-stats-january-2023</id>
+            <updated>2023-01-11T00:00:00.000Z</updated>
+            <published>2023-01-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-january-2023 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Upgrading to PHP 8.2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/upgrading-to-php-82" />
+            <id>https://stitcher.io/blog/upgrading-to-php-82</id>
+            <updated>2023-01-09T00:00:00.000Z</updated>
+            <published>2023-01-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/upgrading-to-php-82 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ All I want for Christmas… ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/all-i-want-for-christmas" />
+            <id>https://stitcher.io/blog/all-i-want-for-christmas</id>
+            <updated>2023-01-03T00:00:00.000Z</updated>
+            <published>2023-01-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/all-i-want-for-christmas ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 8.2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-82" />
+            <id>https://stitcher.io/blog/new-in-php-82</id>
+            <updated>2022-12-08T00:00:00.000Z</updated>
+            <published>2022-12-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-82 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ You cannot find me on Mastodon ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/you-cannot-find-me-on-mastodon" />
+            <id>https://stitcher.io/blog/you-cannot-find-me-on-mastodon</id>
+            <updated>2022-11-19T00:00:00.000Z</updated>
+            <published>2022-11-19T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/you-cannot-find-me-on-mastodon ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP Annotated, the YouTube channel ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-annotated" />
+            <id>https://stitcher.io/blog/php-annotated</id>
+            <updated>2022-11-08T00:00:00.000Z</updated>
+            <published>2022-11-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-annotated ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Upgrade to PHP 8.2 with Homebrew on Mac ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-82-upgrade-mac" />
+            <id>https://stitcher.io/blog/php-82-upgrade-mac</id>
+            <updated>2022-11-01T00:00:00.000Z</updated>
+            <published>2022-11-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-82-upgrade-mac ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Deprecating spatie/data-transfer-object ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/deprecating-spatie-dto" />
+            <id>https://stitcher.io/blog/deprecating-spatie-dto</id>
+            <updated>2022-11-01T00:00:00.000Z</updated>
+            <published>2022-11-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/deprecating-spatie-dto ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Readonly classes in PHP 8.2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/readonly-classes-in-php-82" />
+            <id>https://stitcher.io/blog/readonly-classes-in-php-82</id>
+            <updated>2022-10-25T00:00:00.000Z</updated>
+            <published>2022-10-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/readonly-classes-in-php-82 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.2 in 8 code blocks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-82-in-8-code-blocks" />
+            <id>https://stitcher.io/blog/php-82-in-8-code-blocks</id>
+            <updated>2022-10-24T00:00:00.000Z</updated>
+            <published>2022-10-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-82-in-8-code-blocks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Uses ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/uses" />
+            <id>https://stitcher.io/blog/uses</id>
+            <updated>2022-09-09T00:00:00.000Z</updated>
+            <published>2022-09-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/uses ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Asymmetric visions ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/thoughts-on-asymmetric-visibility" />
+            <id>https://stitcher.io/blog/thoughts-on-asymmetric-visibility</id>
+            <updated>2022-08-25T00:00:00.000Z</updated>
+            <published>2022-08-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/thoughts-on-asymmetric-visibility ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What I would change about PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-reimagined-part-2" />
+            <id>https://stitcher.io/blog/php-reimagined-part-2</id>
+            <updated>2022-08-17T00:00:00.000Z</updated>
+            <published>2022-08-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-reimagined-part-2 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Deprecated dynamic properties in PHP 8.2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/deprecated-dynamic-properties-in-php-82" />
+            <id>https://stitcher.io/blog/deprecated-dynamic-properties-in-php-82</id>
+            <updated>2022-08-08T00:00:00.000Z</updated>
+            <published>2022-08-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/deprecated-dynamic-properties-in-php-82 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Light colour schemes are better ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/light-colour-schemes-are-better" />
+            <id>https://stitcher.io/blog/light-colour-schemes-are-better</id>
+            <updated>2022-07-30T00:00:00.000Z</updated>
+            <published>2022-07-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/light-colour-schemes-are-better ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP performance across versions ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-performance-across-versions" />
+            <id>https://stitcher.io/blog/php-performance-across-versions</id>
+            <updated>2022-07-25T00:00:00.000Z</updated>
+            <published>2022-07-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-performance-across-versions ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The Road to PHP 8.2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/road-to-php-82" />
+            <id>https://stitcher.io/blog/road-to-php-82</id>
+            <updated>2022-07-21T00:00:00.000Z</updated>
+            <published>2022-07-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/road-to-php-82 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Uncertainty, doubt, and static analysis ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/uncertainty-doubt-and-static-analysis" />
+            <id>https://stitcher.io/blog/uncertainty-doubt-and-static-analysis</id>
+            <updated>2022-07-16T00:00:00.000Z</updated>
+            <published>2022-07-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/uncertainty-doubt-and-static-analysis ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The evolution of a PHP object throughout the years ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/evolution-of-a-php-object" />
+            <id>https://stitcher.io/blog/evolution-of-a-php-object</id>
+            <updated>2022-07-15T00:00:00.000Z</updated>
+            <published>2022-07-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/evolution-of-a-php-object ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: July, 2022 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-july-2022" />
+            <id>https://stitcher.io/blog/php-version-stats-july-2022</id>
+            <updated>2022-06-27T00:00:00.000Z</updated>
+            <published>2022-06-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-july-2022 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Stitcher turns 5 🎉 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/stitcher-turns-5" />
+            <id>https://stitcher.io/blog/stitcher-turns-5</id>
+            <updated>2022-06-16T00:00:00.000Z</updated>
+            <published>2022-06-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/stitcher-turns-5 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Clean and minimalistic PhpStorm ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/clean-and-minimalistic-phpstorm" />
+            <id>https://stitcher.io/blog/clean-and-minimalistic-phpstorm</id>
+            <updated>2022-06-08T00:00:00.000Z</updated>
+            <published>2022-06-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/clean-and-minimalistic-phpstorm ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ My PHP enum style guide ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-enum-style-guide" />
+            <id>https://stitcher.io/blog/php-enum-style-guide</id>
+            <updated>2022-05-30T00:00:00.000Z</updated>
+            <published>2022-05-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-enum-style-guide ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Attribute usage in top-1000 PHP packages ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/attribute-usage-in-top-php-packages" />
+            <id>https://stitcher.io/blog/attribute-usage-in-top-php-packages</id>
+            <updated>2022-05-20T00:00:00.000Z</updated>
+            <published>2022-05-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/attribute-usage-in-top-php-packages ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Dealing with deprecations ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dealing-with-deprecations" />
+            <id>https://stitcher.io/blog/dealing-with-deprecations</id>
+            <updated>2022-05-18T00:00:00.000Z</updated>
+            <published>2022-05-18T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dealing-with-deprecations ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Dynamic Strategies ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/strategies" />
+            <id>https://stitcher.io/blog/strategies</id>
+            <updated>2022-04-06T00:00:00.000Z</updated>
+            <published>2022-04-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/strategies ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Goodbye ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/goodbye" />
+            <id>https://stitcher.io/blog/goodbye</id>
+            <updated>2022-03-25T00:00:00.000Z</updated>
+            <published>2022-03-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/goodbye ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The case for PHP generics ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/generics-in-php-4" />
+            <id>https://stitcher.io/blog/generics-in-php-4</id>
+            <updated>2022-03-25T00:00:00.000Z</updated>
+            <published>2022-03-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/generics-in-php-4 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Why we can't have generics in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/generics-in-php-3" />
+            <id>https://stitcher.io/blog/generics-in-php-3</id>
+            <updated>2022-03-24T00:00:00.000Z</updated>
+            <published>2022-03-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/generics-in-php-3 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Generics in depth ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/generics-in-php-2" />
+            <id>https://stitcher.io/blog/generics-in-php-2</id>
+            <updated>2022-03-23T00:00:00.000Z</updated>
+            <published>2022-03-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/generics-in-php-2 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Generics in PHP: The basics ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/generics-in-php-1" />
+            <id>https://stitcher.io/blog/generics-in-php-1</id>
+            <updated>2022-03-22T00:00:00.000Z</updated>
+            <published>2022-03-22T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/generics-in-php-1 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2021 (video) ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2021-video" />
+            <id>https://stitcher.io/blog/php-in-2021-video</id>
+            <updated>2022-01-24T00:00:00.000Z</updated>
+            <published>2022-01-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2021-video ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Dealing with dependencies ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dealing-with-dependencies" />
+            <id>https://stitcher.io/blog/dealing-with-dependencies</id>
+            <updated>2022-01-19T00:00:00.000Z</updated>
+            <published>2022-01-19T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dealing-with-dependencies ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ "It's your fault" ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/its-your-fault" />
+            <id>https://stitcher.io/blog/its-your-fault</id>
+            <updated>2022-01-15T00:00:00.000Z</updated>
+            <published>2022-01-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/its-your-fault ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Twitter home made me miserable ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/twitter-home-made-me-miserable" />
+            <id>https://stitcher.io/blog/twitter-home-made-me-miserable</id>
+            <updated>2022-01-14T00:00:00.000Z</updated>
+            <published>2022-01-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/twitter-home-made-me-miserable ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ How I plan ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/how-i-plan" />
+            <id>https://stitcher.io/blog/how-i-plan</id>
+            <updated>2022-01-13T00:00:00.000Z</updated>
+            <published>2022-01-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/how-i-plan ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2022 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2022" />
+            <id>https://stitcher.io/blog/php-in-2022</id>
+            <updated>2022-01-11T00:00:00.000Z</updated>
+            <published>2022-01-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2022 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: January, 2022 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-january-2022" />
+            <id>https://stitcher.io/blog/php-version-stats-january-2022</id>
+            <updated>2022-01-10T00:00:00.000Z</updated>
+            <published>2022-01-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-january-2022 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ How to be right on the internet ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/how-to-be-right-on-the-internet" />
+            <id>https://stitcher.io/blog/how-to-be-right-on-the-internet</id>
+            <updated>2021-12-31T00:00:00.000Z</updated>
+            <published>2021-12-31T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/how-to-be-right-on-the-internet ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Upgrade to PHP 8.1 with Homebrew on Mac ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-81-upgrade-mac" />
+            <id>https://stitcher.io/blog/php-81-upgrade-mac</id>
+            <updated>2021-11-26T00:00:00.000Z</updated>
+            <published>2021-11-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-81-upgrade-mac ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1: real-life performance benchmarks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-81-performance-in-real-life" />
+            <id>https://stitcher.io/blog/php-81-performance-in-real-life</id>
+            <updated>2021-11-25T00:00:00.000Z</updated>
+            <published>2021-11-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-81-performance-in-real-life ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 8.1 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-81" />
+            <id>https://stitcher.io/blog/new-in-php-81</id>
+            <updated>2021-11-25T00:00:00.000Z</updated>
+            <published>2021-11-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-81 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1 in 8 code blocks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-81-in-8-code-blocks" />
+            <id>https://stitcher.io/blog/php-81-in-8-code-blocks</id>
+            <updated>2021-11-07T00:00:00.000Z</updated>
+            <published>2021-11-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-81-in-8-code-blocks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Generics in PHP (video) ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/generics-in-php-video" />
+            <id>https://stitcher.io/blog/generics-in-php-video</id>
+            <updated>2021-11-06T00:00:00.000Z</updated>
+            <published>2021-11-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/generics-in-php-video ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The case for route attributes ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/route-attributes" />
+            <id>https://stitcher.io/blog/route-attributes</id>
+            <updated>2021-10-27T00:00:00.000Z</updated>
+            <published>2021-10-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/route-attributes ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1: new in initializers ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-81-new-in-initializers" />
+            <id>https://stitcher.io/blog/php-81-new-in-initializers</id>
+            <updated>2021-10-09T00:00:00.000Z</updated>
+            <published>2021-10-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-81-new-in-initializers ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The birth and death of a framework ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/birth-and-death-of-a-framework" />
+            <id>https://stitcher.io/blog/birth-and-death-of-a-framework</id>
+            <updated>2021-09-16T00:00:00.000Z</updated>
+            <published>2021-09-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/birth-and-death-of-a-framework ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1: readonly properties ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-81-readonly-properties" />
+            <id>https://stitcher.io/blog/php-81-readonly-properties</id>
+            <updated>2021-09-11T00:00:00.000Z</updated>
+            <published>2021-09-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-81-readonly-properties ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ My IKEA clock, and software design ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/my-ikea-clock" />
+            <id>https://stitcher.io/blog/my-ikea-clock</id>
+            <updated>2021-09-01T00:00:00.000Z</updated>
+            <published>2021-09-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/my-ikea-clock ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ re: On using PSR abstractions ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/re-on-using-psr-abstractions" />
+            <id>https://stitcher.io/blog/re-on-using-psr-abstractions</id>
+            <updated>2021-08-31T00:00:00.000Z</updated>
+            <published>2021-08-31T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/re-on-using-psr-abstractions ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Named arguments and open source projects ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/named-arguments-and-variadic-functions" />
+            <id>https://stitcher.io/blog/named-arguments-and-variadic-functions</id>
+            <updated>2021-08-26T00:00:00.000Z</updated>
+            <published>2021-08-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/named-arguments-and-variadic-functions ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Rational thinking ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/rational-thinking" />
+            <id>https://stitcher.io/blog/rational-thinking</id>
+            <updated>2021-08-25T00:00:00.000Z</updated>
+            <published>2021-08-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/rational-thinking ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Why do I write? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/why-do-i-write" />
+            <id>https://stitcher.io/blog/why-do-i-write</id>
+            <updated>2021-08-13T00:00:00.000Z</updated>
+            <published>2021-08-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/why-do-i-write ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The Road to PHP 8.1 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/the-road-to-php" />
+            <id>https://stitcher.io/blog/the-road-to-php</id>
+            <updated>2021-08-06T00:00:00.000Z</updated>
+            <published>2021-08-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/the-road-to-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ We don't need runtime type checks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/we-dont-need-runtime-type-checks" />
+            <id>https://stitcher.io/blog/we-dont-need-runtime-type-checks</id>
+            <updated>2021-07-26T00:00:00.000Z</updated>
+            <published>2021-07-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/we-dont-need-runtime-type-checks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Would you like some optimism or realism with your estimate, sir? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/optimistic-or-realistic-estimates" />
+            <id>https://stitcher.io/blog/optimistic-or-realistic-estimates</id>
+            <updated>2021-07-23T00:00:00.000Z</updated>
+            <published>2021-07-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/optimistic-or-realistic-estimates ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1: before and after ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-81-before-and-after" />
+            <id>https://stitcher.io/blog/php-81-before-and-after</id>
+            <updated>2021-07-16T00:00:00.000Z</updated>
+            <published>2021-07-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-81-before-and-after ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ An event-driven mindset ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/an-event-driven-mindset" />
+            <id>https://stitcher.io/blog/an-event-driven-mindset</id>
+            <updated>2021-07-14T00:00:00.000Z</updated>
+            <published>2021-07-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/an-event-driven-mindset ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1: cloning and changing readonly properties ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/cloning-readonly-properties-in-php-81" />
+            <id>https://stitcher.io/blog/cloning-readonly-properties-in-php-81</id>
+            <updated>2021-07-06T00:00:00.000Z</updated>
+            <published>2021-07-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/cloning-readonly-properties-in-php-81 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What about typed request classes? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-about-request-classes" />
+            <id>https://stitcher.io/blog/what-about-request-classes</id>
+            <updated>2021-06-29T00:00:00.000Z</updated>
+            <published>2021-06-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-about-request-classes ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP version stats: July, 2021 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-version-stats-july-2021" />
+            <id>https://stitcher.io/blog/php-version-stats-july-2021</id>
+            <updated>2021-06-28T00:00:00.000Z</updated>
+            <published>2021-06-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-version-stats-july-2021 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Opinion-driven design ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/opinion-driven-design" />
+            <id>https://stitcher.io/blog/opinion-driven-design</id>
+            <updated>2021-06-23T00:00:00.000Z</updated>
+            <published>2021-06-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/opinion-driven-design ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What about config builders? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-about-config-builders" />
+            <id>https://stitcher.io/blog/what-about-config-builders</id>
+            <updated>2021-06-18T00:00:00.000Z</updated>
+            <published>2021-06-18T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-about-config-builders ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A new major version of Laravel Event Sourcing ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-new-major-version-of-laravel-event-sourcing" />
+            <id>https://stitcher.io/blog/a-new-major-version-of-laravel-event-sourcing</id>
+            <updated>2021-06-15T00:00:00.000Z</updated>
+            <published>2021-06-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-new-major-version-of-laravel-event-sourcing ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Why we need multi-line short closures in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/why-we-need-multi-line-short-closures-in-php" />
+            <id>https://stitcher.io/blog/why-we-need-multi-line-short-closures-in-php</id>
+            <updated>2021-06-03T00:00:00.000Z</updated>
+            <published>2021-06-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/why-we-need-multi-line-short-closures-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Running PHP code in parallel, the easy way ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/parallel-php" />
+            <id>https://stitcher.io/blog/parallel-php</id>
+            <updated>2021-04-28T00:00:00.000Z</updated>
+            <published>2021-04-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/parallel-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2021 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2021" />
+            <id>https://stitcher.io/blog/php-in-2021</id>
+            <updated>2021-04-15T00:00:00.000Z</updated>
+            <published>2021-04-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2021 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Fibers with a grain of salt ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/fibers-with-a-grain-of-salt" />
+            <id>https://stitcher.io/blog/fibers-with-a-grain-of-salt</id>
+            <updated>2021-04-12T00:00:00.000Z</updated>
+            <published>2021-04-12T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/fibers-with-a-grain-of-salt ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Starting with event sourcing ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-event-sourcing-is-not-about" />
+            <id>https://stitcher.io/blog/what-event-sourcing-is-not-about</id>
+            <updated>2021-04-09T00:00:00.000Z</updated>
+            <published>2021-04-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-event-sourcing-is-not-about ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Thoughts on Event Sourcing ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/thoughts-on-event-sourcing" />
+            <id>https://stitcher.io/blog/thoughts-on-event-sourcing</id>
+            <updated>2021-04-08T00:00:00.000Z</updated>
+            <published>2021-04-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/thoughts-on-event-sourcing ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Honesty ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/honesty" />
+            <id>https://stitcher.io/blog/honesty</id>
+            <updated>2021-03-31T00:00:00.000Z</updated>
+            <published>2021-03-31T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/honesty ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Don't write your own framework ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dont-write-your-own-framework" />
+            <id>https://stitcher.io/blog/dont-write-your-own-framework</id>
+            <updated>2021-03-25T00:00:00.000Z</updated>
+            <published>2021-03-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dont-write-your-own-framework ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8.1: Enums ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-enums" />
+            <id>https://stitcher.io/blog/php-enums</id>
+            <updated>2021-02-17T00:00:00.000Z</updated>
+            <published>2021-02-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-enums ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP Enums before PHP 8.1 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-enums-before-php-81" />
+            <id>https://stitcher.io/blog/php-enums-before-php-81</id>
+            <updated>2021-02-17T00:00:00.000Z</updated>
+            <published>2021-02-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-enums-before-php-81 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A storm in a glass of water ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-storm-in-a-glass-of-water" />
+            <id>https://stitcher.io/blog/a-storm-in-a-glass-of-water</id>
+            <updated>2021-01-20T00:00:00.000Z</updated>
+            <published>2021-01-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-storm-in-a-glass-of-water ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP reimagined ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-reimagined" />
+            <id>https://stitcher.io/blog/php-reimagined</id>
+            <updated>2021-01-13T00:00:00.000Z</updated>
+            <published>2021-01-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-reimagined ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Websites should be more like Star Wars ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/websites-like-star-wars" />
+            <id>https://stitcher.io/blog/websites-like-star-wars</id>
+            <updated>2021-01-10T00:00:00.000Z</updated>
+            <published>2021-01-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/websites-like-star-wars ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ When I lost a few hundred leads ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/when-i-lost-a-few-hundred-leads" />
+            <id>https://stitcher.io/blog/when-i-lost-a-few-hundred-leads</id>
+            <updated>2020-11-29T00:00:00.000Z</updated>
+            <published>2020-11-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/when-i-lost-a-few-hundred-leads ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Upgrade to PHP 8 with Homebrew on Mac ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-upgrade-mac" />
+            <id>https://stitcher.io/blog/php-8-upgrade-mac</id>
+            <updated>2020-11-26T00:00:00.000Z</updated>
+            <published>2020-11-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-upgrade-mac ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 8 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-8" />
+            <id>https://stitcher.io/blog/new-in-php-8</id>
+            <updated>2020-11-26T00:00:00.000Z</updated>
+            <published>2020-11-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-8 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: the null safe operator ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-nullsafe-operator" />
+            <id>https://stitcher.io/blog/php-8-nullsafe-operator</id>
+            <updated>2020-11-17T00:00:00.000Z</updated>
+            <published>2020-11-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-nullsafe-operator ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: How to setup the JIT ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-jit-setup" />
+            <id>https://stitcher.io/blog/php-8-jit-setup</id>
+            <updated>2020-10-29T00:00:00.000Z</updated>
+            <published>2020-10-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-jit-setup ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Front Line PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/front-line-php" />
+            <id>https://stitcher.io/blog/front-line-php</id>
+            <updated>2020-10-05T00:00:00.000Z</updated>
+            <published>2020-10-05T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/front-line-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What a good PR looks like ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-a-good-pr-looks-like" />
+            <id>https://stitcher.io/blog/what-a-good-pr-looks-like</id>
+            <updated>2020-10-02T00:00:00.000Z</updated>
+            <published>2020-10-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-a-good-pr-looks-like ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Which colour scheme is better? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/why-light-themes-are-better-according-to-science" />
+            <id>https://stitcher.io/blog/why-light-themes-are-better-according-to-science</id>
+            <updated>2020-09-26T00:00:00.000Z</updated>
+            <published>2020-09-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/why-light-themes-are-better-according-to-science ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Scopes in JetBrains IDEs ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/phpstorm-scopes" />
+            <id>https://stitcher.io/blog/phpstorm-scopes</id>
+            <updated>2020-09-26T00:00:00.000Z</updated>
+            <published>2020-09-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/phpstorm-scopes ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The case for transpiled generics in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/the-case-for-transpiled-generics" />
+            <id>https://stitcher.io/blog/the-case-for-transpiled-generics</id>
+            <updated>2020-09-17T00:00:00.000Z</updated>
+            <published>2020-09-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/the-case-for-transpiled-generics ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: Attributes ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/attributes-in-php-8" />
+            <id>https://stitcher.io/blog/attributes-in-php-8</id>
+            <updated>2020-09-03T00:00:00.000Z</updated>
+            <published>2020-09-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/attributes-in-php-8 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Don't get stuck ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dont-get-stuck" />
+            <id>https://stitcher.io/blog/dont-get-stuck</id>
+            <updated>2020-08-29T00:00:00.000Z</updated>
+            <published>2020-08-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dont-get-stuck ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Annotations ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/annotations" />
+            <id>https://stitcher.io/blog/annotations</id>
+            <updated>2020-08-28T00:00:00.000Z</updated>
+            <published>2020-08-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/annotations ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Differences ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/differences" />
+            <id>https://stitcher.io/blog/differences</id>
+            <updated>2020-08-21T00:00:00.000Z</updated>
+            <published>2020-08-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/differences ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ My journey into event sourcing ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/my-journey-into-event-sourcing" />
+            <id>https://stitcher.io/blog/my-journey-into-event-sourcing</id>
+            <updated>2020-07-25T00:00:00.000Z</updated>
+            <published>2020-07-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/my-journey-into-event-sourcing ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: named arguments ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-named-arguments" />
+            <id>https://stitcher.io/blog/php-8-named-arguments</id>
+            <updated>2020-07-23T00:00:00.000Z</updated>
+            <published>2020-07-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-named-arguments ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: before and after ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-before-and-after" />
+            <id>https://stitcher.io/blog/php-8-before-and-after</id>
+            <updated>2020-07-20T00:00:00.000Z</updated>
+            <published>2020-07-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-before-and-after ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Shorthand comparisons in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/shorthand-comparisons-in-php" />
+            <id>https://stitcher.io/blog/shorthand-comparisons-in-php</id>
+            <updated>2020-07-14T00:00:00.000Z</updated>
+            <published>2020-07-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/shorthand-comparisons-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Why we need named arguments in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/why-we-need-named-params-in-php" />
+            <id>https://stitcher.io/blog/why-we-need-named-params-in-php</id>
+            <updated>2020-07-11T00:00:00.000Z</updated>
+            <published>2020-07-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/why-we-need-named-params-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: match or switch? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-match-or-switch" />
+            <id>https://stitcher.io/blog/php-8-match-or-switch</id>
+            <updated>2020-07-08T00:00:00.000Z</updated>
+            <published>2020-07-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-match-or-switch ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: JIT performance in real-life web applications ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/jit-in-real-life-web-applications" />
+            <id>https://stitcher.io/blog/jit-in-real-life-web-applications</id>
+            <updated>2020-07-02T00:00:00.000Z</updated>
+            <published>2020-07-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/jit-in-real-life-web-applications ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Braille, and the evolution of software development ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/braille-and-the-history-of-software" />
+            <id>https://stitcher.io/blog/braille-and-the-history-of-software</id>
+            <updated>2020-06-27T00:00:00.000Z</updated>
+            <published>2020-06-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/braille-and-the-history-of-software ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Abstract resources in Laravel Nova ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/abstract-resources-in-laravel-nova" />
+            <id>https://stitcher.io/blog/abstract-resources-in-laravel-nova</id>
+            <updated>2020-06-23T00:00:00.000Z</updated>
+            <published>2020-06-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/abstract-resources-in-laravel-nova ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: Constructor property promotion ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/constructor-promotion-in-php-8" />
+            <id>https://stitcher.io/blog/constructor-promotion-in-php-8</id>
+            <updated>2020-06-12T00:00:00.000Z</updated>
+            <published>2020-06-12T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/constructor-promotion-in-php-8 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Survey results: type systems in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/type-system-in-php-survey-results" />
+            <id>https://stitcher.io/blog/type-system-in-php-survey-results</id>
+            <updated>2020-06-09T00:00:00.000Z</updated>
+            <published>2020-06-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/type-system-in-php-survey-results ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What does array + do in PHP? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-is-array-plus-in-php" />
+            <id>https://stitcher.io/blog/what-is-array-plus-in-php</id>
+            <updated>2020-06-05T00:00:00.000Z</updated>
+            <published>2020-06-05T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-is-array-plus-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ How to merge multidimensional arrays in PHP? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/merging-multidimensional-arrays-in-php" />
+            <id>https://stitcher.io/blog/merging-multidimensional-arrays-in-php</id>
+            <updated>2020-06-05T00:00:00.000Z</updated>
+            <published>2020-06-05T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/merging-multidimensional-arrays-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Survey: type systems in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/type-system-in-php-survey" />
+            <id>https://stitcher.io/blog/type-system-in-php-survey</id>
+            <updated>2020-06-03T00:00:00.000Z</updated>
+            <published>2020-06-03T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/type-system-in-php-survey ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Improvements on Laravel Nova ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/improvements-on-laravel-nova" />
+            <id>https://stitcher.io/blog/improvements-on-laravel-nova</id>
+            <updated>2020-05-26T00:00:00.000Z</updated>
+            <published>2020-05-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/improvements-on-laravel-nova ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 7.4 in 7 code blocks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-74-in-7-code-blocks" />
+            <id>https://stitcher.io/blog/php-74-in-7-code-blocks</id>
+            <updated>2020-05-23T00:00:00.000Z</updated>
+            <published>2020-05-23T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-74-in-7-code-blocks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The IKEA effect ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/the-ikea-effect" />
+            <id>https://stitcher.io/blog/the-ikea-effect</id>
+            <updated>2020-05-21T00:00:00.000Z</updated>
+            <published>2020-05-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/the-ikea-effect ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Builders and architects: two types of programmers ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/builders-and-architects-two-types-of-programmers" />
+            <id>https://stitcher.io/blog/builders-and-architects-two-types-of-programmers</id>
+            <updated>2020-05-20T00:00:00.000Z</updated>
+            <published>2020-05-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/builders-and-architects-two-types-of-programmers ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8 in 8 code blocks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-8-in-8-code-blocks" />
+            <id>https://stitcher.io/blog/php-8-in-8-code-blocks</id>
+            <updated>2020-05-15T00:00:00.000Z</updated>
+            <published>2020-05-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-8-in-8-code-blocks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ array_chunk in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/array-chunk-in-php" />
+            <id>https://stitcher.io/blog/array-chunk-in-php</id>
+            <updated>2020-05-14T00:00:00.000Z</updated>
+            <published>2020-05-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/array-chunk-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Combining event sourcing and stateful systems ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/combining-event-sourcing-and-stateful-systems" />
+            <id>https://stitcher.io/blog/combining-event-sourcing-and-stateful-systems</id>
+            <updated>2020-04-14T00:00:00.000Z</updated>
+            <published>2020-04-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/combining-event-sourcing-and-stateful-systems ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Minor versions, breaking changes ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/minor-versions-breaking-changes" />
+            <id>https://stitcher.io/blog/minor-versions-breaking-changes</id>
+            <updated>2020-03-26T00:00:00.000Z</updated>
+            <published>2020-03-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/minor-versions-breaking-changes ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Event driven server in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/event-driven-php" />
+            <id>https://stitcher.io/blog/event-driven-php</id>
+            <updated>2020-03-13T00:00:00.000Z</updated>
+            <published>2020-03-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/event-driven-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Bitwise booleans in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/bitwise-booleans-in-php" />
+            <id>https://stitcher.io/blog/bitwise-booleans-in-php</id>
+            <updated>2020-02-14T00:00:00.000Z</updated>
+            <published>2020-02-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/bitwise-booleans-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Enums without enums in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/enums-without-enums" />
+            <id>https://stitcher.io/blog/enums-without-enums</id>
+            <updated>2020-02-01T00:00:00.000Z</updated>
+            <published>2020-02-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/enums-without-enums ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2020 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2020" />
+            <id>https://stitcher.io/blog/php-in-2020</id>
+            <updated>2020-01-17T00:00:00.000Z</updated>
+            <published>2020-01-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2020 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Preloading benchmarks in PHP 7.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-preload-benchmarks" />
+            <id>https://stitcher.io/blog/php-preload-benchmarks</id>
+            <updated>2020-01-10T00:00:00.000Z</updated>
+            <published>2020-01-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-preload-benchmarks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Upgrade to PHP 7.4 with Homebrew on Mac ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-74-upgrade-mac" />
+            <id>https://stitcher.io/blog/php-74-upgrade-mac</id>
+            <updated>2019-11-28T00:00:00.000Z</updated>
+            <published>2019-11-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-74-upgrade-mac ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What's new in PHP 7.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-74" />
+            <id>https://stitcher.io/blog/new-in-php-74</id>
+            <updated>2019-11-26T00:00:00.000Z</updated>
+            <published>2019-11-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-74 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Relationship issues ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/laravel-custom-relation-classes" />
+            <id>https://stitcher.io/blog/laravel-custom-relation-classes</id>
+            <updated>2019-11-09T00:00:00.000Z</updated>
+            <published>2019-11-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/laravel-custom-relation-classes ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Laravel's HasManyThrough cheatsheet ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/laravel-has-many-through" />
+            <id>https://stitcher.io/blog/laravel-has-many-through</id>
+            <updated>2019-11-08T00:00:00.000Z</updated>
+            <published>2019-11-08T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/laravel-has-many-through ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Can I translate your blog? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/can-i-translate-your-blog" />
+            <id>https://stitcher.io/blog/can-i-translate-your-blog</id>
+            <updated>2019-11-07T00:00:00.000Z</updated>
+            <published>2019-11-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/can-i-translate-your-blog ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Guest posts ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/guest-posts" />
+            <id>https://stitcher.io/blog/guest-posts</id>
+            <updated>2019-09-16T00:00:00.000Z</updated>
+            <published>2019-09-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/guest-posts ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ re: re: A letter to the PHP team ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-letter-to-the-php-team-reply-to-joe" />
+            <id>https://stitcher.io/blog/a-letter-to-the-php-team-reply-to-joe</id>
+            <updated>2019-08-29T00:00:00.000Z</updated>
+            <published>2019-08-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-letter-to-the-php-team-reply-to-joe ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A letter to the PHP team ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-letter-to-the-php-team" />
+            <id>https://stitcher.io/blog/a-letter-to-the-php-team</id>
+            <updated>2019-08-28T00:00:00.000Z</updated>
+            <published>2019-08-28T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-letter-to-the-php-team ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Things dependency injection is not about ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/things-dependency-injection-is-not-about" />
+            <id>https://stitcher.io/blog/things-dependency-injection-is-not-about</id>
+            <updated>2019-07-30T00:00:00.000Z</updated>
+            <published>2019-07-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/things-dependency-injection-is-not-about ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Preloading in PHP 7.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/preloading-in-php-74" />
+            <id>https://stitcher.io/blog/preloading-in-php-74</id>
+            <updated>2019-07-05T00:00:00.000Z</updated>
+            <published>2019-07-05T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/preloading-in-php-74 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Typed properties in PHP 7.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/typed-properties-in-php-74" />
+            <id>https://stitcher.io/blog/typed-properties-in-php-74</id>
+            <updated>2019-06-30T00:00:00.000Z</updated>
+            <published>2019-06-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/typed-properties-in-php-74 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tests and types ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tests-and-types" />
+            <id>https://stitcher.io/blog/tests-and-types</id>
+            <updated>2019-06-07T00:00:00.000Z</updated>
+            <published>2019-06-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tests-and-types ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What are objects anyway? - Rant With Brent 02 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-are-objects-anyway-rant-with-brent" />
+            <id>https://stitcher.io/blog/what-are-objects-anyway-rant-with-brent</id>
+            <updated>2019-06-05T00:00:00.000Z</updated>
+            <published>2019-06-05T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-are-objects-anyway-rant-with-brent ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A project at Spatie ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-project-at-spatie" />
+            <id>https://stitcher.io/blog/a-project-at-spatie</id>
+            <updated>2019-05-30T00:00:00.000Z</updated>
+            <published>2019-05-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-project-at-spatie ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I'm starting a podcast ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/starting-a-podcast" />
+            <id>https://stitcher.io/blog/starting-a-podcast</id>
+            <updated>2019-05-14T00:00:00.000Z</updated>
+            <published>2019-05-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/starting-a-podcast ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP in 2019 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-in-2019" />
+            <id>https://stitcher.io/blog/php-in-2019</id>
+            <updated>2019-05-10T00:00:00.000Z</updated>
+            <published>2019-05-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-in-2019 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ SOLID, interfaces and final - Rant With Brent 01 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/solid-interfaces-and-final-rant-with-brent" />
+            <id>https://stitcher.io/blog/solid-interfaces-and-final-rant-with-brent</id>
+            <updated>2019-05-07T00:00:00.000Z</updated>
+            <published>2019-05-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/solid-interfaces-and-final-rant-with-brent ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Arrow functions in PHP 7.4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/short-closures-in-php" />
+            <id>https://stitcher.io/blog/short-closures-in-php</id>
+            <updated>2019-05-02T00:00:00.000Z</updated>
+            <published>2019-05-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/short-closures-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I'm starting a newsletter ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/starting-a-newsletter" />
+            <id>https://stitcher.io/blog/starting-a-newsletter</id>
+            <updated>2019-04-26T00:00:00.000Z</updated>
+            <published>2019-04-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/starting-a-newsletter ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Unsafe SQL functions in Laravel ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/unsafe-sql-functions-in-laravel" />
+            <id>https://stitcher.io/blog/unsafe-sql-functions-in-laravel</id>
+            <updated>2019-04-10T00:00:00.000Z</updated>
+            <published>2019-04-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/unsafe-sql-functions-in-laravel ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Array destructuring in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/array-destructuring-with-list-in-php" />
+            <id>https://stitcher.io/blog/array-destructuring-with-list-in-php</id>
+            <updated>2019-04-01T00:00:00.000Z</updated>
+            <published>2019-04-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/array-destructuring-with-list-in-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Upgrade to PHP 7.3 with Homebrew on Mac ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-73-upgrade-mac" />
+            <id>https://stitcher.io/blog/php-73-upgrade-mac</id>
+            <updated>2019-03-21T00:00:00.000Z</updated>
+            <published>2019-03-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-73-upgrade-mac ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Queueable actions in Laravel ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/laravel-queueable-actions" />
+            <id>https://stitcher.io/blog/laravel-queueable-actions</id>
+            <updated>2019-03-11T00:00:00.000Z</updated>
+            <published>2019-03-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/laravel-queueable-actions ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Craftsmen know their tools ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/craftsmen-know-their-tools" />
+            <id>https://stitcher.io/blog/craftsmen-know-their-tools</id>
+            <updated>2019-02-21T00:00:00.000Z</updated>
+            <published>2019-02-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/craftsmen-know-their-tools ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP 8: The JIT ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-jit" />
+            <id>https://stitcher.io/blog/php-jit</id>
+            <updated>2019-02-06T00:00:00.000Z</updated>
+            <published>2019-02-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-jit ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ I'm building something ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/announcing-aggregate" />
+            <id>https://stitcher.io/blog/announcing-aggregate</id>
+            <updated>2019-01-29T00:00:00.000Z</updated>
+            <published>2019-01-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/announcing-aggregate ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Analytics for developers ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/analytics-for-developers" />
+            <id>https://stitcher.io/blog/analytics-for-developers</id>
+            <updated>2019-01-22T00:00:00.000Z</updated>
+            <published>2019-01-22T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/analytics-for-developers ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Share a blog: sebastiandedeyne ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/share-a-blog-sebastiandedeyne-com" />
+            <id>https://stitcher.io/blog/share-a-blog-sebastiandedeyne-com</id>
+            <updated>2019-01-15T00:00:00.000Z</updated>
+            <published>2019-01-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/share-a-blog-sebastiandedeyne-com ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Comparing dates ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/comparing-dates" />
+            <id>https://stitcher.io/blog/comparing-dates</id>
+            <updated>2018-12-21T00:00:00.000Z</updated>
+            <published>2018-12-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/comparing-dates ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Have you thought about casing? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/have-you-thought-about-casing" />
+            <id>https://stitcher.io/blog/have-you-thought-about-casing</id>
+            <updated>2018-12-20T00:00:00.000Z</updated>
+            <published>2018-12-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/have-you-thought-about-casing ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Share a blog: betterwebtype ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/share-a-blog-betterwebtype-com" />
+            <id>https://stitcher.io/blog/share-a-blog-betterwebtype-com</id>
+            <updated>2018-12-15T00:00:00.000Z</updated>
+            <published>2018-12-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/share-a-blog-betterwebtype-com ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ New in PHP 7.3 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/new-in-php-73" />
+            <id>https://stitcher.io/blog/new-in-php-73</id>
+            <updated>2018-12-06T00:00:00.000Z</updated>
+            <published>2018-12-06T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/new-in-php-73 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Share a blog: codingwriter.com ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/share-a-blog-codingwriter-com" />
+            <id>https://stitcher.io/blog/share-a-blog-codingwriter-com</id>
+            <updated>2018-11-14T00:00:00.000Z</updated>
+            <published>2018-11-14T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/share-a-blog-codingwriter-com ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Structuring unstructured data ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/structuring-unstructured-data" />
+            <id>https://stitcher.io/blog/structuring-unstructured-data</id>
+            <updated>2018-11-11T00:00:00.000Z</updated>
+            <published>2018-11-11T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/structuring-unstructured-data ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PhpStorm OSX performance: October 2018 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/phpstorm-performance-october-2018" />
+            <id>https://stitcher.io/blog/phpstorm-performance-october-2018</id>
+            <updated>2018-10-26T00:00:00.000Z</updated>
+            <published>2018-10-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/phpstorm-performance-october-2018 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Share a blog: assertchris.io ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/share-a-blog-assertchris-io" />
+            <id>https://stitcher.io/blog/share-a-blog-assertchris-io</id>
+            <updated>2018-10-25T00:00:00.000Z</updated>
+            <published>2018-10-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/share-a-blog-assertchris-io ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ array_merge or + in PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/array-merge-vs+" />
+            <id>https://stitcher.io/blog/array-merge-vs+</id>
+            <updated>2018-10-24T00:00:00.000Z</updated>
+            <published>2018-10-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/array-merge-vs+ ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Organise by domain ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/organise-by-domain" />
+            <id>https://stitcher.io/blog/organise-by-domain</id>
+            <updated>2018-10-16T00:00:00.000Z</updated>
+            <published>2018-10-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/organise-by-domain ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Laravel view models vs. view composers ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/laravel-view-models-vs-view-composers" />
+            <id>https://stitcher.io/blog/laravel-view-models-vs-view-composers</id>
+            <updated>2018-10-16T00:00:00.000Z</updated>
+            <published>2018-10-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/laravel-view-models-vs-view-composers ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Laravel view models ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/laravel-view-models" />
+            <id>https://stitcher.io/blog/laravel-view-models</id>
+            <updated>2018-09-10T00:00:00.000Z</updated>
+            <published>2018-09-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/laravel-view-models ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Eloquent MySQL views ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/eloquent-mysql-views" />
+            <id>https://stitcher.io/blog/eloquent-mysql-views</id>
+            <updated>2018-08-27T00:00:00.000Z</updated>
+            <published>2018-08-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/eloquent-mysql-views ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The web in 2045 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/the-web-in-2045" />
+            <id>https://stitcher.io/blog/the-web-in-2045</id>
+            <updated>2018-08-15T00:00:00.000Z</updated>
+            <published>2018-08-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/the-web-in-2045 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Service locator: an anti-pattern ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/service-locator-anti-pattern" />
+            <id>https://stitcher.io/blog/service-locator-anti-pattern</id>
+            <updated>2018-08-10T00:00:00.000Z</updated>
+            <published>2018-08-10T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/service-locator-anti-pattern ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The Visual Perception of Code ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/visual-perception-of-code" />
+            <id>https://stitcher.io/blog/visual-perception-of-code</id>
+            <updated>2018-06-09T00:00:00.000Z</updated>
+            <published>2018-06-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/visual-perception-of-code ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Acquisition by giants ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/acquisition-by-giants" />
+            <id>https://stitcher.io/blog/acquisition-by-giants</id>
+            <updated>2018-06-05T00:00:00.000Z</updated>
+            <published>2018-06-05T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/acquisition-by-giants ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Liskov and type safety ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/liskov-and-type-safety" />
+            <id>https://stitcher.io/blog/liskov-and-type-safety</id>
+            <updated>2018-05-19T00:00:00.000Z</updated>
+            <published>2018-05-19T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/liskov-and-type-safety ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Dependency injection for beginners ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/dependency-injection-for-beginners" />
+            <id>https://stitcher.io/blog/dependency-injection-for-beginners</id>
+            <updated>2018-04-30T00:00:00.000Z</updated>
+            <published>2018-04-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/dependency-injection-for-beginners ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHPStorm performance issues on OSX ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/phpstorm-performance-issues-on-osx" />
+            <id>https://stitcher.io/blog/phpstorm-performance-issues-on-osx</id>
+            <updated>2018-04-25T00:00:00.000Z</updated>
+            <published>2018-04-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/phpstorm-performance-issues-on-osx ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ What PHP can be ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/what-php-can-be" />
+            <id>https://stitcher.io/blog/what-php-can-be</id>
+            <updated>2018-04-15T00:00:00.000Z</updated>
+            <published>2018-04-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/what-php-can-be ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHPStorm tips for power users ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/phpstorm-tips-for-power-users" />
+            <id>https://stitcher.io/blog/phpstorm-tips-for-power-users</id>
+            <updated>2018-03-15T00:00:00.000Z</updated>
+            <published>2018-03-15T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/phpstorm-tips-for-power-users ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Responsive images done right ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/responsive-images-done-right" />
+            <id>https://stitcher.io/blog/responsive-images-done-right</id>
+            <updated>2018-03-07T00:00:00.000Z</updated>
+            <published>2018-03-07T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/responsive-images-done-right ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Showing full MySQL foreign key errors ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/mysql-show-foreign-key-errors" />
+            <id>https://stitcher.io/blog/mysql-show-foreign-key-errors</id>
+            <updated>2018-02-13T00:00:00.000Z</updated>
+            <published>2018-02-13T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/mysql-show-foreign-key-errors ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ MySQL query logging ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/mysql-query-logging" />
+            <id>https://stitcher.io/blog/mysql-query-logging</id>
+            <updated>2018-01-20T00:00:00.000Z</updated>
+            <published>2018-01-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/mysql-query-logging ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Where a curly bracket belongs ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/where-a-curly-bracket-belongs" />
+            <id>https://stitcher.io/blog/where-a-curly-bracket-belongs</id>
+            <updated>2018-01-16T00:00:00.000Z</updated>
+            <published>2018-01-16T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/where-a-curly-bracket-belongs ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ MySQL import: JSON with binary character set ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/mysql-import-json-binary-character-set" />
+            <id>https://stitcher.io/blog/mysql-import-json-binary-character-set</id>
+            <updated>2018-01-09T00:00:00.000Z</updated>
+            <published>2018-01-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/mysql-import-json-binary-character-set ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Asynchronous PHP ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/asynchronous-php" />
+            <id>https://stitcher.io/blog/asynchronous-php</id>
+            <updated>2017-12-24T00:00:00.000Z</updated>
+            <published>2017-12-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/asynchronous-php ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Optimised UUIDs in mysql ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/optimised-uuids-in-mysql" />
+            <id>https://stitcher.io/blog/optimised-uuids-in-mysql</id>
+            <updated>2017-11-29T00:00:00.000Z</updated>
+            <published>2017-11-29T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/optimised-uuids-in-mysql ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Improving PHPStorm's performance ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/phpstorm-performance" />
+            <id>https://stitcher.io/blog/phpstorm-performance</id>
+            <updated>2017-10-22T00:00:00.000Z</updated>
+            <published>2017-10-22T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/phpstorm-performance ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Stitcher beta 2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/stitcher-beta-2" />
+            <id>https://stitcher.io/blog/stitcher-beta-2</id>
+            <updated>2017-08-27T00:00:00.000Z</updated>
+            <published>2017-08-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/stitcher-beta-2 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Mastering key bindings ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/mastering-key-bindings" />
+            <id>https://stitcher.io/blog/mastering-key-bindings</id>
+            <updated>2017-08-25T00:00:00.000Z</updated>
+            <published>2017-08-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/mastering-key-bindings ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ A programmer's cognitive load ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/a-programmers-cognitive-load" />
+            <id>https://stitcher.io/blog/a-programmers-cognitive-load</id>
+            <updated>2017-06-25T00:00:00.000Z</updated>
+            <published>2017-06-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/a-programmers-cognitive-load ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Responsive images as CSS background ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/responsive-images-as-css-background" />
+            <id>https://stitcher.io/blog/responsive-images-as-css-background</id>
+            <updated>2017-06-24T00:00:00.000Z</updated>
+            <published>2017-06-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/responsive-images-as-css-background ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Object oriented generators ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/object-oriented-generators" />
+            <id>https://stitcher.io/blog/object-oriented-generators</id>
+            <updated>2017-06-17T00:00:00.000Z</updated>
+            <published>2017-06-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/object-oriented-generators ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Process forks ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/process-forks" />
+            <id>https://stitcher.io/blog/process-forks</id>
+            <updated>2017-06-09T00:00:00.000Z</updated>
+            <published>2017-06-09T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/process-forks ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Performance 101: building the better web ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/performance-101-building-the-better-web" />
+            <id>https://stitcher.io/blog/performance-101-building-the-better-web</id>
+            <updated>2017-05-30T00:00:00.000Z</updated>
+            <published>2017-05-30T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/performance-101-building-the-better-web ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Array objects ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/array-objects-with-fixed-types" />
+            <id>https://stitcher.io/blog/array-objects-with-fixed-types</id>
+            <updated>2017-05-25T00:00:00.000Z</updated>
+            <published>2017-05-25T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/array-objects-with-fixed-types ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Stitcher beta 1 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/stitcher-beta-1" />
+            <id>https://stitcher.io/blog/stitcher-beta-1</id>
+            <updated>2017-05-20T00:00:00.000Z</updated>
+            <published>2017-05-20T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/stitcher-beta-1 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ PHP Generics and why we need them ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/php-generics-and-why-we-need-them" />
+            <id>https://stitcher.io/blog/php-generics-and-why-we-need-them</id>
+            <updated>2017-05-17T00:00:00.000Z</updated>
+            <published>2017-05-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/php-generics-and-why-we-need-them ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Stitcher alpha 5 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/stitcher-alpha-5" />
+            <id>https://stitcher.io/blog/stitcher-alpha-5</id>
+            <updated>2017-05-01T00:00:00.000Z</updated>
+            <published>2017-05-01T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/stitcher-alpha-5 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ The simplest plugin support ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/simplest-plugin-support" />
+            <id>https://stitcher.io/blog/simplest-plugin-support</id>
+            <updated>2017-04-27T00:00:00.000Z</updated>
+            <published>2017-04-27T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/simplest-plugin-support ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Stitcher alpha 4 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/stitcher-alpha-4" />
+            <id>https://stitcher.io/blog/stitcher-alpha-4</id>
+            <updated>2017-04-21T00:00:00.000Z</updated>
+            <published>2017-04-21T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/stitcher-alpha-4 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Static site generators vs. caching ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/static_sites_vs_caching" />
+            <id>https://stitcher.io/blog/static_sites_vs_caching</id>
+            <updated>2017-03-02T00:00:00.000Z</updated>
+            <published>2017-03-02T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/static_sites_vs_caching ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Image optimizers ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/image_optimizers" />
+            <id>https://stitcher.io/blog/image_optimizers</id>
+            <updated>2017-02-26T00:00:00.000Z</updated>
+            <published>2017-02-26T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/image_optimizers ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tackling responsive images - part 2 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tackling_responsive_images-part_2" />
+            <id>https://stitcher.io/blog/tackling_responsive_images-part_2</id>
+            <updated>2017-02-18T00:00:00.000Z</updated>
+            <published>2017-02-18T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tackling_responsive_images-part_2 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Tackling responsive images - part 1 ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/tackling_responsive_images-part_1" />
+            <id>https://stitcher.io/blog/tackling_responsive_images-part_1</id>
+            <updated>2017-02-17T00:00:00.000Z</updated>
+            <published>2017-02-17T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/tackling_responsive_images-part_1 ]]>
+            </content>
+        </entry>
+            <entry>
+            <title><![CDATA[ Which editor to choose? ]]></title>
+            <link rel="alternate" href="https://stitcher.io/blog/which-editor-to-choose" />
+            <id>https://stitcher.io/blog/which-editor-to-choose</id>
+            <updated>2015-08-24T00:00:00.000Z</updated>
+            <published>2015-08-24T00:00:00.000Z</published>
+            <author>
+                <name>
+                    <![CDATA[ Brent ]]>
+                </name>
+            </author>
+            <content>
+                <![CDATA[ Read the full post on https://stitcher.io/blog/which-editor-to-choose ]]>
+            </content>
+        </entry>
+    </feed>

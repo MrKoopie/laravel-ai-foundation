@@ -1,0 +1,23 @@
+{
+  "slug": "nunomaduro",
+  "handle": "@nunomaduro",
+  "name": "nunomaduro",
+  "url": "https://www.youtube.com/@nunomaduro",
+  "sourceType": "youtube-channel",
+  "artifacts": {
+    "rawMetadata": "youtube-videos.raw.jsonl",
+    "enrichedMetadata": "videos.jsonl",
+    "programmingVideoUrls": "programming-video-urls.txt",
+    "captions": "captions/youtube-json3",
+    "transcriptAudit": "transcript-audit.md",
+    "transcriptSourceMethods": "transcript-source-methods.md",
+    "asrTranscripts": "transcripts/asr",
+    "visualReviews": "visual-reviews"
+  },
+  "generatedOutputs": {
+    "videoTracker": "videos.md",
+    "videoNotes": "docs/videos",
+    "topicGuides": "docs/topics",
+    "examples": "docs/examples"
+  }
+}

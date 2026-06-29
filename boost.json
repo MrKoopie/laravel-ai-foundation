@@ -1,0 +1,23 @@
+{
+  "agents": [
+    "amp",
+    "junie",
+    "cursor",
+    "claude_code",
+    "codex",
+    "copilot",
+    "factory",
+    "kiro",
+    "opencode",
+    "antigravity",
+    "zed",
+    "pi"
+  ],
+  "cloud": false,
+  "guidelines": true,
+  "mcp": false,
+  "nightwatch": false,
+  "packages": [],
+  "sail": false,
+  "skills": []
+}

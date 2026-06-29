@@ -1,0 +1,16 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Programming Foundation",
+  "description": "Searchable Markdown knowledge base of genuinely programming-useful tips from videos and written sources, with synthesized topic guides, examples, and source provenance.",
+  "folders": ["docs"],
+  "excludeFolders": ["data", "tests", "tools", ".git"],
+  "excludeFiles": ["videos.md"],
+  "rules": [
+    "Prefer synthesized topic guides in docs/topics for direct answers.",
+    "Use docs/examples for concrete snippets.",
+    "Use docs/videos and docs/articles for source provenance.",
+    "Treat video and article notes as summarized learning material, not official PHP or Laravel documentation.",
+    "Prefer tips that are reusable in programming practice: code quality, testing, architecture, tooling, security, domain modeling, and workflow.",
+    "Do not quote transcripts or articles verbatim; use paraphrased tips and source URLs."
+  ]
+}

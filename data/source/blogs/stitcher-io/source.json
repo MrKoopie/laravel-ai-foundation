@@ -1,0 +1,10 @@
+{
+  "slug": "stitcher-io",
+  "name": "Stitcher.io",
+  "url": "https://stitcher.io/",
+  "rss": "https://stitcher.io/rss",
+  "sitemap": "https://stitcher.io/sitemap.xml",
+  "author": "Brent Roose",
+  "description": "Modern PHP, Laravel, web development, and programming practice articles by Brent Roose.",
+  "fetched_at": "2026-06-29"
+}
