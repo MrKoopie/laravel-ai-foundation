@@ -27,6 +27,57 @@ Before finishing:
 - Follow existing Laravel action, form request, and typed model patterns.
 ```
 
+## Avoid Overengineering
+
+### What not to add
+For a one-screen admin form, skip an action, DTO hierarchy, repository, command bus, event stream, and module boundary unless the behavior shows real pressure for them.
+
+```text
+Use the smallest design that explains the current behavior:
+- FormRequest for HTTP validation
+- Controller for HTTP orchestration
+- Eloquent model call for the single write
+- Focused test for the user-visible result
+```
+
+### Small controller before abstraction
+This code has no reuse pressure, no multi-step consistency boundary, and no hidden domain rule. Keeping it direct makes the behavior easier to scan.
+
+```php
+<?php
+
+final class StoreLabelController
+{
+    public function __invoke(StoreLabelRequest $request): RedirectResponse
+    {
+        $label = Label::query()->create($request->validated());
+
+        return redirect()->route('labels.show', $label);
+    }
+}
+```
+
+### Extraction when pressure appears
+Once the same behavior is needed from HTTP and a queued import, and it has a consistency rule, the action earns its place.
+
+```php
+<?php
+
+final readonly class RegisterSubscriber
+{
+    public function handle(SubscriberData $data): Subscriber
+    {
+        return DB::transaction(function () use ($data) {
+            $subscriber = Subscriber::query()->create($data->toArray());
+
+            SubscribeToDefaultList::dispatchSync($subscriber);
+
+            return $subscriber;
+        });
+    }
+}
+```
+
 ## Clean Laravel Code
 
 ### Thin invokable controller
@@ -181,6 +232,23 @@ export default function ShowUser({ user }: UserPageProps) {
 
 ## Laravel Actions
 
+### Inline simple CRUD
+A single validated write with no reuse and no extra business rule can stay in the controller. This is less ceremony, not less architecture.
+
+```php
+<?php
+
+final class StoreTagController
+{
+    public function __invoke(StoreTagRequest $request): RedirectResponse
+    {
+        $tag = Tag::query()->create($request->validated());
+
+        return redirect()->route('tags.show', $tag);
+    }
+}
+```
+
 ### Action class boundary
 The action receives application data, not an HTTP request.
 
@@ -231,6 +299,32 @@ final readonly class ImportUserJob
             'name' => $this->row['name'],
             'email' => $this->row['email'],
         ]);
+    }
+}
+```
+
+### Action-worthy workflow
+Create an action when the behavior coordinates several steps or protects a rule that deserves a named test surface.
+
+```php
+<?php
+
+final readonly class InviteTeamMember
+{
+    public function __construct(private Mailer $mailer) {}
+
+    public function handle(Team $team, User $invitedBy, string $email): Invitation
+    {
+        return DB::transaction(function () use ($team, $invitedBy, $email) {
+            $invitation = $team->invitations()->create([
+                'email' => $email,
+                'invited_by_id' => $invitedBy->id,
+            ]);
+
+            $this->mailer->send(new TeamInvitationMail($invitation));
+
+            return $invitation;
+        });
     }
 }
 ```

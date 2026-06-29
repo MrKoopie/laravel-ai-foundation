@@ -1,0 +1,32 @@
+{
+  "name": "laravel-ai-foundation",
+  "version": "0.1.0",
+  "description": "Laravel architecture guidance from the Programming Foundation knowledge base.",
+  "author": {
+    "name": "MrKoopie",
+    "url": "https://github.com/MrKoopie"
+  },
+  "homepage": "https://github.com/MrKoopie/laravel-ai-foundation",
+  "repository": "https://github.com/MrKoopie/laravel-ai-foundation",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "actions",
+    "ddd",
+    "context7",
+    "ai-guidance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Laravel AI Foundation",
+    "shortDescription": "Use Laravel architecture guidance from Context7.",
+    "longDescription": "Adds a skill that steers agents toward the Programming Foundation topic guides before designing Laravel actions, DDD boundaries, request validation, testing strategy, or overengineering-sensitive architecture.",
+    "developerName": "MrKoopie",
+    "category": "Productivity",
+    "capabilities": [
+      "Reference",
+      "Guidance"
+    ],
+    "defaultPrompt": "Use Laravel AI Foundation to design this Laravel feature without overengineering it."
+  }
+}

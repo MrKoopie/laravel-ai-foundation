@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel AI Foundation"
+  short_description: "Laravel architecture guidance"
+  default_prompt: "Use $laravel-ai-foundation to design a Laravel action without overengineering."

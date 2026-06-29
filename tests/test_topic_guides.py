@@ -89,6 +89,7 @@ class TopicGuidesTest(unittest.TestCase):
         self.assertIn("domain-modeling", slugs)
         self.assertIn("event-sourcing", slugs)
         self.assertIn("dependencies-and-maintenance", slugs)
+        self.assertIn("avoid-overengineering", slugs)
 
     def test_examples_index_links_to_topic_examples(self):
         guide = TopicGuide(
@@ -126,6 +127,29 @@ class TopicGuidesTest(unittest.TestCase):
         self.assertIn("validation is a boundary concern", markdown)
         self.assertIn("HTTP requests, queued jobs, console commands, and tests", markdown)
         self.assertIn("trusted, already-shaped input", markdown)
+
+    def test_laravel_actions_discourages_action_overuse(self):
+        from tools.topic_guides import TOPIC_GUIDES
+
+        guide = next(guide for guide in TOPIC_GUIDES if guide.slug == "laravel-actions")
+
+        markdown = render_topic_guide(guide)
+
+        self.assertIn("Do not action all the things", markdown)
+        self.assertIn("single obvious Eloquent call", markdown)
+        self.assertIn("Action per model method", markdown)
+
+    def test_avoid_overengineering_guide_names_pressure_before_patterns(self):
+        from tools.topic_guides import TOPIC_GUIDES
+
+        guide = next(guide for guide in TOPIC_GUIDES if guide.slug == "avoid-overengineering")
+
+        markdown = render_topic_guide(guide)
+
+        self.assertIn("# Avoid Overengineering", markdown)
+        self.assertIn("Wait for pressure before adding patterns", markdown)
+        self.assertIn("Add an action only when the behavior has earned a name", markdown)
+        self.assertIn("What not to add", markdown)
 
     def test_archive_renderer_writes_topic_guides(self):
         metadata = (

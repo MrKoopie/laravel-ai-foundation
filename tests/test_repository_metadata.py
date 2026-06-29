@@ -151,6 +151,25 @@ class RepositoryMetadataTest(unittest.TestCase):
         self.assertIn("tools", config["excludeFolders"])
         self.assertIn("data", config["excludeFolders"])
 
+    def test_codex_plugin_exposes_foundation_skill(self):
+        plugin = json.loads(
+            (ROOT / "plugins/laravel-ai-foundation/.codex-plugin/plugin.json").read_text()
+        )
+        skill = (
+            ROOT
+            / "plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md"
+        ).read_text()
+        marketplace = json.loads((ROOT / ".agents/plugins/marketplace.json").read_text())
+
+        self.assertEqual(plugin["name"], "laravel-ai-foundation")
+        self.assertEqual(plugin["skills"], "./skills/")
+        self.assertIn("Context7", skill)
+        self.assertIn("/mrkoopie/laravel-ai-foundation", skill)
+        self.assertIn("actions are not the default", skill)
+        self.assertIn("official Laravel documentation", skill)
+        self.assertEqual(marketplace["name"], "programming-foundation")
+        self.assertEqual(marketplace["plugins"][0]["name"], "laravel-ai-foundation")
+
 
 if __name__ == "__main__":
     unittest.main()

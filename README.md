@@ -22,6 +22,12 @@ This is a Markdown documentation repository, not a Laravel application, so Boost
 
 `boost.json` lists every agent currently supported by Laravel Boost: Amp, Junie, Cursor, Claude Code, Codex, Copilot, Factory, Kiro, OpenCode, Antigravity, Zed, and Pi. Boost uses [CLAUDE.md](CLAUDE.md) for Claude Code and [AGENTS.md](AGENTS.md) for the other supported agents.
 
+## Agent Skill
+
+The repo includes a repo-local Codex plugin at [plugins/laravel-ai-foundation](plugins/laravel-ai-foundation). Its skill tells agents to query the live Context7 library `/mrkoopie/laravel-ai-foundation` before making Laravel architecture decisions, especially around actions, request boundaries, DDD, testing, and avoiding overengineering.
+
+The portable skill file is [plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md](plugins/laravel-ai-foundation/skills/laravel-ai-foundation/SKILL.md). Codex can use it through the plugin marketplace manifest in [.agents/plugins/marketplace.json](.agents/plugins/marketplace.json); Claude/Claude Code can reuse the same `SKILL.md` content as a normal skill.
+
 ## Source Data
 
 The source metadata and captions used for analysis are kept in [data/source](data/source). YouTube sources are grouped by channel under [data/source/channels](data/source/channels). Blog sources are grouped under [data/source/blogs](data/source/blogs).

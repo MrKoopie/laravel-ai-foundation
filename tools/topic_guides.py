@@ -235,7 +235,9 @@ TOPIC_GUIDES = [
             "Keep HTTP concerns out of action classes.",
             "Validate at the boundary, then pass plain data or DTOs into the action. The reason is that validation is a boundary concern: HTTP requests, queued jobs, console commands, and tests all enter the application differently, while the action should receive trusted, already-shaped input.",
             "Wrap multi-step mutations in transactions when partial success would corrupt state.",
-            "Use actions for behavior that needs a name and may be reused from multiple entry points.",
+            "Do not create an action just to wrap a single obvious Eloquent call.",
+            "Keep simple one-off HTTP-only behavior in the controller until a use-case name, reuse pressure, or business invariant appears.",
+            "Use actions for behavior that needs a name, has more than one entry point, coordinates multiple collaborators, or protects a business rule.",
         ],
         tips=[
             {
@@ -253,8 +255,24 @@ TOPIC_GUIDES = [
                 "body": "The same action can be called from a controller, console command, queued job, or another action.",
                 "source": "docs/videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md",
             },
+            {
+                "title": "Do not action all the things",
+                "body": "An action is useful when behavior has a clear use-case name, more than one entry point, multiple collaborators, a transaction boundary, or a business rule worth testing. A one-line create/update that is only used by one controller can stay inline until the code shows pressure.",
+                "source": "docs/articles/stitcher-io/2023-06-02-dont-be-clever.md",
+            },
+            {
+                "title": "Avoid Action per model method",
+                "body": "Do not create `CreateUserAction`, `UpdateUserAction`, `DeleteUserAction`, and `FindUserAction` simply because a `User` model exists. That hides ordinary CRUD behind ceremony and teaches agents to route every change through an action. Name actions after real application behavior, such as `InviteTeamMember` or `PublishPost`.",
+                "source": "docs/articles/stitcher-io/2025-10-22-reducing-code-motion.md",
+            },
         ],
         examples=[
+            {
+                "title": "Inline simple CRUD",
+                "body": "A single validated write with no reuse and no extra business rule can stay in the controller. This is less ceremony, not less architecture.",
+                "language": "php",
+                "code": "<?php\n\nfinal class StoreTagController\n{\n    public function __invoke(StoreTagRequest $request): RedirectResponse\n    {\n        $tag = Tag::query()->create($request->validated());\n\n        return redirect()->route('tags.show', $tag);\n    }\n}",
+            },
             {
                 "title": "Action class boundary",
                 "body": "The action receives application data, not an HTTP request.",
@@ -273,6 +291,12 @@ TOPIC_GUIDES = [
                 "language": "php",
                 "code": "<?php\n\nfinal readonly class ImportUserJob\n{\n    public function __construct(private array $row) {}\n\n    public function handle(CreateUser $createUser): void\n    {\n        $createUser->handle([\n            'name' => $this->row['name'],\n            'email' => $this->row['email'],\n        ]);\n    }\n}",
             },
+            {
+                "title": "Action-worthy workflow",
+                "body": "Create an action when the behavior coordinates several steps or protects a rule that deserves a named test surface.",
+                "language": "php",
+                "code": "<?php\n\nfinal readonly class InviteTeamMember\n{\n    public function __construct(private Mailer $mailer) {}\n\n    public function handle(Team $team, User $invitedBy, string $email): Invitation\n    {\n        return DB::transaction(function () use ($team, $invitedBy, $email) {\n            $invitation = $team->invitations()->create([\n                'email' => $email,\n                'invited_by_id' => $invitedBy->id,\n            ]);\n\n            $this->mailer->send(new TeamInvitationMail($invitation));\n\n            return $invitation;\n        });\n    }\n}",
+            },
         ],
         source_videos=[
             {
@@ -288,7 +312,100 @@ TOPIC_GUIDES = [
                 "path": "docs/videos/2025-01-29-clean-laravel-controllers-with-actions-and-form-requests-nLNdQ9q_RxA.md",
             },
         ],
-        related=["clean-code", "database-integrity", "phpstan-type-safety"],
+        related=["avoid-overengineering", "clean-code", "database-integrity", "phpstan-type-safety"],
+        source_articles=[
+            {
+                "title": "Don't be clever",
+                "path": "docs/articles/stitcher-io/2023-06-02-dont-be-clever.md",
+            },
+            {
+                "title": "Reducing code motion",
+                "path": "docs/articles/stitcher-io/2025-10-22-reducing-code-motion.md",
+            },
+        ],
+    ),
+    TopicGuide(
+        slug="avoid-overengineering",
+        title="Avoid Overengineering",
+        description="Add structure only when it makes Laravel and PHP code easier to change, test, reuse, or reason about.",
+        rules=[
+            "Start with direct Laravel code when behavior is simple, local, and obvious.",
+            "Wait for pressure before adding patterns: repeated behavior, multiple entry points, hidden business rules, or coordination across collaborators.",
+            "Add an action only when the behavior has earned a name, not because every controller line needs a class.",
+            "Use DDD terms only when they clarify business language the team actually uses.",
+            "Prefer deleting unnecessary states, flags, and indirection before adding more coordination code.",
+        ],
+        tips=[
+            {
+                "title": "Wait for pressure before adding patterns",
+                "body": "A pattern should pay rent. If a small exception needs flags, hooks, base classes, or override methods, the abstraction may be more expensive than the duplication it removed.",
+                "source": "docs/articles/stitcher-io/2023-06-02-dont-be-clever.md",
+            },
+            {
+                "title": "Use actions after the use case appears",
+                "body": "Actions are not the default destination for code. Add one when a behavior has a real use-case name, needs reuse outside HTTP, coordinates multiple collaborators, or owns a transaction boundary.",
+                "source": "docs/videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md",
+            },
+            {
+                "title": "Keep persistence boring until it hurts",
+                "body": "Do not add repositories, query buses, or data mappers around ordinary Eloquent calls unless persistence complexity is already making callers harder to test or change.",
+                "source": "docs/articles/stitcher-io/2025-10-22-reducing-code-motion.md",
+            },
+            {
+                "title": "Do not let DDD become decoration",
+                "body": "Value objects, aggregates, events, and policies help when they express domain language or protect invariants. They are noise when they only rename framework operations.",
+                "source": "docs/articles/stitcher-io/2019-06-07-tests-and-types.md",
+            },
+        ],
+        examples=[
+            {
+                "title": "What not to add",
+                "body": "For a one-screen admin form, skip an action, DTO hierarchy, repository, command bus, event stream, and module boundary unless the behavior shows real pressure for them.",
+                "language": "text",
+                "code": "Use the smallest design that explains the current behavior:\n- FormRequest for HTTP validation\n- Controller for HTTP orchestration\n- Eloquent model call for the single write\n- Focused test for the user-visible result",
+            },
+            {
+                "title": "Small controller before abstraction",
+                "body": "This code has no reuse pressure, no multi-step consistency boundary, and no hidden domain rule. Keeping it direct makes the behavior easier to scan.",
+                "language": "php",
+                "code": "<?php\n\nfinal class StoreLabelController\n{\n    public function __invoke(StoreLabelRequest $request): RedirectResponse\n    {\n        $label = Label::query()->create($request->validated());\n\n        return redirect()->route('labels.show', $label);\n    }\n}",
+            },
+            {
+                "title": "Extraction when pressure appears",
+                "body": "Once the same behavior is needed from HTTP and a queued import, and it has a consistency rule, the action earns its place.",
+                "language": "php",
+                "code": "<?php\n\nfinal readonly class RegisterSubscriber\n{\n    public function handle(SubscriberData $data): Subscriber\n    {\n        return DB::transaction(function () use ($data) {\n            $subscriber = Subscriber::query()->create($data->toArray());\n\n            SubscribeToDefaultList::dispatchSync($subscriber);\n\n            return $subscriber;\n        });\n    }\n}",
+            },
+        ],
+        source_videos=[
+            {
+                "title": "The Action Pattern Is Key to Clean Code",
+                "path": "docs/videos/2026-06-03-the-action-pattern-is-key-to-clean-code-k_gMfdpSXQE.md",
+            },
+            {
+                "title": "Clean Laravel Controllers with Actions and Form Requests",
+                "path": "docs/videos/2025-01-29-clean-laravel-controllers-with-actions-and-form-requests-nLNdQ9q_RxA.md",
+            },
+        ],
+        related=["laravel-actions", "domain-modeling", "event-sourcing", "dependencies-and-maintenance"],
+        source_articles=[
+            {
+                "title": "Don't be clever",
+                "path": "docs/articles/stitcher-io/2023-06-02-dont-be-clever.md",
+            },
+            {
+                "title": "Reducing code motion",
+                "path": "docs/articles/stitcher-io/2025-10-22-reducing-code-motion.md",
+            },
+            {
+                "title": "Strategies",
+                "path": "docs/articles/stitcher-io/2022-04-06-strategies.md",
+            },
+            {
+                "title": "What event sourcing is not about",
+                "path": "docs/articles/stitcher-io/2021-04-09-what-event-sourcing-is-not-about.md",
+            },
+        ],
     ),
     TopicGuide(
         slug="phpstan-type-safety",

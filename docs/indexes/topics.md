@@ -3,6 +3,7 @@
 Start here when searching by programming problem. These pages synthesize tips across multiple videos and link back to the source notes.
 
 - [AI Engineering Guardrails](../topics/ai-engineering.md) - Use strict project defaults so AI-generated code is easier to review, test, and trust.
+- [Avoid Overengineering](../topics/avoid-overengineering.md) - Add structure only when it makes Laravel and PHP code easier to change, test, reuse, or reason about.
 - [Clean Laravel Code](../topics/clean-code.md) - Keep code readable by giving each layer one job: requests validate, controllers orchestrate, actions perform behavior, and tests describe outcomes.
 - [Database Integrity](../topics/database-integrity.md) - Protect application state with explicit constraints, transactions, and schema changes that match production behavior.
 - [Dependencies And Maintenance](../topics/dependencies-and-maintenance.md) - Keep collaborators, packages, and upgrade work explicit so the codebase stays understandable and safe to evolve.

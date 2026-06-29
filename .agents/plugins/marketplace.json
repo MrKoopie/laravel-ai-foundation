@@ -1,0 +1,20 @@
+{
+  "name": "programming-foundation",
+  "interface": {
+    "displayName": "Programming Foundation"
+  },
+  "plugins": [
+    {
+      "name": "laravel-ai-foundation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/laravel-ai-foundation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
