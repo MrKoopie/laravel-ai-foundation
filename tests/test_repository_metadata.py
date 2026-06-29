@@ -150,6 +150,10 @@ class RepositoryMetadataTest(unittest.TestCase):
         self.assertEqual(config["folders"], ["docs"])
         self.assertIn("tools", config["excludeFolders"])
         self.assertIn("data", config["excludeFolders"])
+        self.assertIn("README.md", config["excludeFiles"])
+        self.assertIn("AGENTS.md", config["excludeFiles"])
+        self.assertIn("CLAUDE.md", config["excludeFiles"])
+        self.assertIn("videos.md", config["excludeFiles"])
 
     def test_codex_plugin_exposes_foundation_skill(self):
         plugin = json.loads(

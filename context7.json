@@ -4,7 +4,7 @@
   "description": "Searchable Markdown knowledge base of genuinely programming-useful tips from videos and written sources, with synthesized topic guides, examples, and source provenance.",
   "folders": ["docs"],
   "excludeFolders": ["data", "tests", "tools", ".git"],
-  "excludeFiles": ["videos.md"],
+  "excludeFiles": ["README.md", "AGENTS.md", "CLAUDE.md", "videos.md"],
   "rules": [
     "Prefer synthesized topic guides in docs/topics for direct answers.",
     "Use docs/examples for concrete snippets.",
